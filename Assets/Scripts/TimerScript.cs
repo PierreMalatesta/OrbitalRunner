@@ -15,6 +15,8 @@ public class TimerScript : MonoBehaviour
     void Start()
     {
         startTime = Time.time;
+
+        gameObject.SetActive(PlayerPrefs.GetInt("ShowHud") == 1);
     }
 
     // Update is called once per frame
