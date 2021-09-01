@@ -34,29 +34,20 @@ public class VolumeSaveController : MonoBehaviour
     public void ToggleHudButton()
     {
         PlayerPrefs.SetInt("ShowHud", PlayerPrefs.GetInt("ShowHud")  == 1 ? 0 : 1);
-
-        if (PlayerPrefs.GetInt("ShowHud") == 1)
-        {
-            ON.SetActive(true);
-            OFF.SetActive(false);
-        }
-        else if (PlayerPrefs.GetInt("ShowHud") == 0)
-        {
-            ON.SetActive(false);
-            OFF.SetActive(true);
-        }
+        LoadValues();
     }
-
-    //public void SetText(string text)
-    //{
-    //    Textfield.text = text;
-    //}
 
     void LoadValues()
     {
-        if (!PlayerPrefs.HasKey("ShowHud"))
+        if (PlayerPrefs.GetInt("ShowHud") == 1)
+        {        
+            OFF.SetActive(false);
+            ON.SetActive(true);
+        }
+        else
         {
-            PlayerPrefs.SetInt("ShowHud", 1);
+            ON.SetActive(false);
+            OFF.SetActive(true);
         }
 
         float VolumeValue = PlayerPrefs.GetFloat("VolumeValue");
