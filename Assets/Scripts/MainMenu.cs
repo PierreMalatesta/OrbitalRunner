@@ -45,4 +45,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level2");
     }
+
+    public void Level3()
+    {
+        SceneManager.LoadScene("Level3");
+    }
 }

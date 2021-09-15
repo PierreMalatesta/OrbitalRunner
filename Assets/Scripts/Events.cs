@@ -19,4 +19,16 @@ public class Events : MonoBehaviour
         SceneManager.LoadScene("Level1");
 
     }
+
+    public void ReplayLvlTwo()
+    {
+        SceneManager.LoadScene("Level2");
+
+    }
+
+    public void ReplayLvlThree()
+    {
+        SceneManager.LoadScene("Level3");
+
+    }
 }
