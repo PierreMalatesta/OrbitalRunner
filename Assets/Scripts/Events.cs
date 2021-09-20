@@ -4,14 +4,14 @@ using System.Diagnostics;
 
 public class Events : MonoBehaviour
 {
-   public void ReplayGame()
+    public void ReplayGame()
     {
-        SceneManager.LoadScene("test"); 
+        SceneManager.LoadScene("test");
     }
 
     public void QuitGame()
     {
-        SceneManager.LoadScene("MainMenu");  
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void ReplayLvlOne()
@@ -31,4 +31,10 @@ public class Events : MonoBehaviour
         SceneManager.LoadScene("Level3");
 
     }
+
+    public void ReplayLvlfour()
+    {
+        SceneManager.LoadScene("Level4");
+    }
+
 }
