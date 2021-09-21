@@ -50,4 +50,14 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level3");
     }
+
+    public void Level4()
+    {
+        SceneManager.LoadScene("Level4");
+    }
+
+    public void Level5()
+    {
+        SceneManager.LoadScene("Level5");
+    }
 }

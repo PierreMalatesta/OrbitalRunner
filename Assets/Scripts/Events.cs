@@ -37,4 +37,9 @@ public class Events : MonoBehaviour
         SceneManager.LoadScene("Level4");
     }
 
+    public void ReplayLvlfive()
+    {
+        SceneManager.LoadScene("Level5");
+    }
+
 }
