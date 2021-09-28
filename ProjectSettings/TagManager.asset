@@ -10,6 +10,7 @@ TagManager:
   - Character
   - playercollide
   - PlayerCollide
+  - coin
   layers:
   - Default
   - TransparentFX

@@ -4,25 +4,13 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    public GameObject coin; 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-       
-    }
+    private float coin = 0;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == ("playercollide"))
+        if (other.transform.tag == "coin")
         {
-            Destroy(coin);
+            Destroy(other.gameObject);
         }
     }
 }
