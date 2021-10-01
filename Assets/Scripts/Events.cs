@@ -4,6 +4,11 @@ using System.Diagnostics;
 
 public class Events : MonoBehaviour
 {
+    public void LoadStore()
+    {
+        SceneManager.LoadScene("Store");
+    }
+
     public void ReplayGame()
     {
         SceneManager.LoadScene("test");

@@ -26,11 +26,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Options");
     }
 
-    public void LoadStore()
-    {
-        SceneManager.LoadScene("Store");
-    }
-
     public void LoadLevel()
     {
         SceneManager.LoadScene("LevelScene");
