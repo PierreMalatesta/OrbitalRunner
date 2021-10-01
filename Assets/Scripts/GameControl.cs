@@ -12,6 +12,8 @@ public class GameControl : MonoBehaviour
     public GameObject Ninja;
     public GameObject FirstPlayer;
 
+    // public GameObject FirstPlayer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,10 +25,8 @@ public class GameControl : MonoBehaviour
             Ninja.SetActive(true);
             FirstPlayer.SetActive(false);
         }
-           
-        else if (isNinjaSold == 0)
+        else
         {
-            FirstPlayer.SetActive(true);
             Ninja.SetActive(false);
         }
     }
