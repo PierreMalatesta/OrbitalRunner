@@ -27,7 +27,7 @@ public class ShopControl : MonoBehaviour
 
         isNinjaSold = PlayerPrefs.GetInt("isNinjaSold");
 
-        if (moneyAmount >= 10 && isNinjaSold == 0)
+        if (moneyAmount >= 2 && isNinjaSold == 0)
             buyButton.interactable = true;
         else
             buyButton.interactable = false;
@@ -35,7 +35,7 @@ public class ShopControl : MonoBehaviour
 
     public void buyNinja()
     {
-        moneyAmount -= 5;
+        moneyAmount -= 2;
         PlayerPrefs.SetInt("IsNinjaSold", 1);
         ninjaPrice.text = "Sold!";
         buyButton.gameObject.SetActive(false);

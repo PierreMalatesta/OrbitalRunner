@@ -5,17 +5,13 @@ using TMPro;
 
 public class Coin : MonoBehaviour
 {
-    private float coin = 0;
+    //private float coin = 0;
 
-    public TextMeshProUGUI TextCoins;
+    //public TextMeshProUGUI TextCoins;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider col)
     {
-        if (other.transform.tag == "coin")
-        {
-            coin++;
-            TextCoins.text = coin.ToString();
-            Destroy(other.gameObject);
-        }
+        GameControl.moneyAmount += 1;
+        Destroy(gameObject);
     }
 }
