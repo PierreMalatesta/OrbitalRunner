@@ -11,6 +11,8 @@ public class GameControl : MonoBehaviour
     int isNinjaSold;
     public GameObject Ninja;
     public GameObject FirstPlayer;
+    public GameObject SecondJump;
+    public GameObject SecondSlide;
 
     // public GameObject FirstPlayer;
 
@@ -24,10 +26,14 @@ public class GameControl : MonoBehaviour
         {
             Ninja.SetActive(true);
             FirstPlayer.SetActive(false);
+            SecondJump.SetActive(true);
+            SecondSlide.SetActive(true);
         }
         else
         {
             Ninja.SetActive(false);
+            SecondJump.SetActive(false);
+            SecondSlide.SetActive(false);
         }
     }
 
