@@ -95,7 +95,7 @@ public class PlayerControls : MonoBehaviour
         if (!isJumping && checkGround.isGrounded)
         {
             rb.AddForce(0, jump * Time.deltaTime, 0, ForceMode.VelocityChange);     //this if statement makes the player jump
-            GetComponent<Rigidbody>().AddForce(Vector3.up * 400);
+            GetComponent<Rigidbody>().AddForce(Vector3.up * 250);
         }
     }
 
