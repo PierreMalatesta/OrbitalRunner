@@ -21,7 +21,7 @@ items:
   source:
     id: ShopControl
     path: ''
-    startLine: 600
+    startLine: 609
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -52,7 +52,7 @@ items:
   source:
     id: moneyAmountText
     path: ''
-    startLine: 605
+    startLine: 614
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -79,7 +79,7 @@ items:
   source:
     id: ninjaPrice
     path: ''
-    startLine: 606
+    startLine: 615
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -106,7 +106,7 @@ items:
   source:
     id: buyButton
     path: ''
-    startLine: 608
+    startLine: 617
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -133,10 +133,12 @@ items:
   source:
     id: buyNinja
     path: ''
-    startLine: 629
+    startLine: 642
   assemblies:
   - cs.temp.dll
   namespace: Global
+  summary: "\nThis function is use to buy the ninja gameObject, takes away 10 coins and disables the buy button.\n"
+  example: []
   syntax:
     content: public void buyNinja()
     content.vb: Public Sub buyNinja
@@ -159,7 +161,7 @@ items:
   source:
     id: exitShop
     path: ''
-    startLine: 637
+    startLine: 650
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -185,7 +187,7 @@ items:
   source:
     id: resetPlayerPrefs
     path: ''
-    startLine: 643
+    startLine: 656
   assemblies:
   - cs.temp.dll
   namespace: Global

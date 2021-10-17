@@ -21,7 +21,7 @@ items:
   source:
     id: SpawnScript
     path: ''
-    startLine: 658
+    startLine: 671
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -52,7 +52,7 @@ items:
   source:
     id: obj
     path: ''
-    startLine: 660
+    startLine: 673
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -79,7 +79,7 @@ items:
   source:
     id: spawnInterval
     path: ''
-    startLine: 661
+    startLine: 674
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -106,7 +106,7 @@ items:
   source:
     id: pos
     path: ''
-    startLine: 662
+    startLine: 675
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -133,7 +133,7 @@ items:
   source:
     id: size
     path: ''
-    startLine: 663
+    startLine: 676
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -160,7 +160,7 @@ items:
   source:
     id: maxPlatforms
     path: ''
-    startLine: 667
+    startLine: 680
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -187,7 +187,7 @@ items:
   source:
     id: player
     path: ''
-    startLine: 669
+    startLine: 682
   assemblies:
   - cs.temp.dll
   namespace: Global

@@ -25,7 +25,7 @@ items:
   source:
     id: MainMenu
     path: ''
-    startLine: 354
+    startLine: 358
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -56,7 +56,7 @@ items:
   source:
     id: PlayGame
     path: ''
-    startLine: 356
+    startLine: 360
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -82,7 +82,7 @@ items:
   source:
     id: QuitGame
     path: ''
-    startLine: 361
+    startLine: 365
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -108,7 +108,7 @@ items:
   source:
     id: LoadCredits
     path: ''
-    startLine: 366
+    startLine: 370
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -134,7 +134,7 @@ items:
   source:
     id: LoadOptions
     path: ''
-    startLine: 371
+    startLine: 375
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -160,7 +160,7 @@ items:
   source:
     id: LoadLevel
     path: ''
-    startLine: 376
+    startLine: 380
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -186,7 +186,7 @@ items:
   source:
     id: Level1
     path: ''
-    startLine: 382
+    startLine: 386
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -212,7 +212,7 @@ items:
   source:
     id: Level2
     path: ''
-    startLine: 386
+    startLine: 390
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -238,7 +238,7 @@ items:
   source:
     id: Level3
     path: ''
-    startLine: 391
+    startLine: 395
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -264,7 +264,7 @@ items:
   source:
     id: Level4
     path: ''
-    startLine: 396
+    startLine: 400
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -290,7 +290,7 @@ items:
   source:
     id: Level5
     path: ''
-    startLine: 401
+    startLine: 405
   assemblies:
   - cs.temp.dll
   namespace: Global

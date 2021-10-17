@@ -19,7 +19,7 @@ items:
   source:
     id: LookCamera
     path: ''
-    startLine: 828
+    startLine: 841
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -50,7 +50,7 @@ items:
   source:
     id: speedNormal
     path: ''
-    startLine: 830
+    startLine: 843
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -77,7 +77,7 @@ items:
   source:
     id: speedFast
     path: ''
-    startLine: 831
+    startLine: 844
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -104,7 +104,7 @@ items:
   source:
     id: mouseSensitivityX
     path: ''
-    startLine: 833
+    startLine: 846
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -131,7 +131,7 @@ items:
   source:
     id: mouseSensitivityY
     path: ''
-    startLine: 834
+    startLine: 847
   assemblies:
   - cs.temp.dll
   namespace: Global

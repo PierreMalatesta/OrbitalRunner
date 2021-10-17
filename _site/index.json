@@ -82,7 +82,7 @@
   "api/Global.ShopControl.html": {
     "href": "api/Global.ShopControl.html",
     "title": "Class ShopControl | Orbital Runner",
-    "keywords": "Class ShopControl Inheritance Object ShopControl Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ShopControl : MonoBehaviour Fields buyButton Declaration public Button buyButton Field Value Type Description Button moneyAmountText Declaration public Text moneyAmountText Field Value Type Description Text ninjaPrice Declaration public Text ninjaPrice Field Value Type Description Text Methods buyNinja() Declaration public void buyNinja() exitShop() Declaration public void exitShop() resetPlayerPrefs() Declaration public void resetPlayerPrefs()"
+    "keywords": "Class ShopControl Inheritance Object ShopControl Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ShopControl : MonoBehaviour Fields buyButton Declaration public Button buyButton Field Value Type Description Button moneyAmountText Declaration public Text moneyAmountText Field Value Type Description Text ninjaPrice Declaration public Text ninjaPrice Field Value Type Description Text Methods buyNinja() This function is use to buy the ninja gameObject, takes away 10 coins and disables the buy button. Declaration public void buyNinja() exitShop() Declaration public void exitShop() resetPlayerPrefs() Declaration public void resetPlayerPrefs()"
   },
   "api/Global.SpawnScript.html": {
     "href": "api/Global.SpawnScript.html",

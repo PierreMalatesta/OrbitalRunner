@@ -208,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ShopControl.html",
-          "hash": "ep7g7imEWrVv06YJx9Exu/5gKVtVG6buB/gP998HPoY="
+          "hash": "aGqJBGKbwlLtUSKm9wBB6o9PXcnVENhdiNT9zt+o6nM="
         }
       },
       "is_incremental": false,
@@ -360,25 +360,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 21,
-          "skipped_file_count": 0
+          "skipped_file_count": 12
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
