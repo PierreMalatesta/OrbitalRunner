@@ -59,13 +59,7 @@ public class PlayerControls : MonoBehaviour
         originalHeight = collider.height;
 
        
-    }
-
-
-    
-      /// <summary>
-      /// Plays jump and slide animations when appropriate buttons are clicked.
-      /// </summary>      
+    }    
     
     void FixedUpdate()
     {
@@ -95,6 +89,10 @@ public class PlayerControls : MonoBehaviour
         // GoingUp();
     }
 
+
+    /// <summary>
+    /// Adds a force on the y axis to push the character in the air using onclick event
+    /// </summary>  
     public void OnJump()
     {
         if (!isJumping && checkGround.isGrounded)

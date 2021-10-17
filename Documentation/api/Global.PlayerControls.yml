@@ -329,10 +329,12 @@ items:
   source:
     id: OnJump
     path: ''
-    startLine: 544
+    startLine: 542
   assemblies:
   - cs.temp.dll
   namespace: Global
+  summary: "\nAdds a force on the y axis to push the character in the air using onclick event\n"
+  example: []
   syntax:
     content: public void OnJump()
     content.vb: Public Sub OnJump
@@ -355,7 +357,7 @@ items:
   source:
     id: Slide
     path: ''
-    startLine: 553
+    startLine: 551
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -381,7 +383,7 @@ items:
   source:
     id: GoingUp
     path: ''
-    startLine: 570
+    startLine: 568
   assemblies:
   - cs.temp.dll
   namespace: Global

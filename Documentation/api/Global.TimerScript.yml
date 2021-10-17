@@ -17,7 +17,7 @@ items:
   source:
     id: TimerScript
     path: ''
-    startLine: 720
+    startLine: 718
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -48,7 +48,7 @@ items:
   source:
     id: TimerText
     path: ''
-    startLine: 722
+    startLine: 720
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -75,7 +75,7 @@ items:
   source:
     id: Finnish
     path: ''
-    startLine: 750
+    startLine: 748
   assemblies:
   - cs.temp.dll
   namespace: Global

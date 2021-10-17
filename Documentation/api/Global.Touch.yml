@@ -17,7 +17,7 @@ items:
   source:
     id: Touch
     path: ''
-    startLine: 762
+    startLine: 760
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -48,7 +48,7 @@ items:
   source:
     id: player
     path: ''
-    startLine: 764
+    startLine: 762
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -75,7 +75,7 @@ items:
   source:
     id: MakePlayerJump
     path: ''
-    startLine: 773
+    startLine: 771
   assemblies:
   - cs.temp.dll
   namespace: Global
