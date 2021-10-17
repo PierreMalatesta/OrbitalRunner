@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.VolumeSaveController
+  commentId: T:Global.VolumeSaveController
+  id: VolumeSaveController
+  parent: Global
+  children:
+  - Global.VolumeSaveController.OFF
+  - Global.VolumeSaveController.ON
+  - Global.VolumeSaveController.SaveVolumeButton
+  - Global.VolumeSaveController.ToggleHudButton
+  - Global.VolumeSaveController.volumeSlider(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: VolumeSaveController
+  nameWithType: VolumeSaveController
+  fullName: VolumeSaveController
+  type: Class
+  source:
+    id: VolumeSaveController
+    path: ''
+    startLine: 773
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class VolumeSaveController : MonoBehaviour'
+    content.vb: >-
+      Public Class VolumeSaveController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.VolumeSaveController.ON
+  commentId: F:Global.VolumeSaveController.ON
+  id: ON
+  parent: Global.VolumeSaveController
+  langs:
+  - csharp
+  - vb
+  name: ON
+  nameWithType: VolumeSaveController.ON
+  fullName: VolumeSaveController.ON
+  type: Field
+  source:
+    id: ON
+    path: ''
+    startLine: 779
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject ON
+    return:
+      type: Global.GameObject
+    content.vb: Public ON As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.VolumeSaveController.OFF
+  commentId: F:Global.VolumeSaveController.OFF
+  id: OFF
+  parent: Global.VolumeSaveController
+  langs:
+  - csharp
+  - vb
+  name: OFF
+  nameWithType: VolumeSaveController.OFF
+  fullName: VolumeSaveController.OFF
+  type: Field
+  source:
+    id: OFF
+    path: ''
+    startLine: 780
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject OFF
+    return:
+      type: Global.GameObject
+    content.vb: Public OFF As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.VolumeSaveController.volumeSlider(System.Single)
+  commentId: M:Global.VolumeSaveController.volumeSlider(System.Single)
+  id: volumeSlider(System.Single)
+  parent: Global.VolumeSaveController
+  langs:
+  - csharp
+  - vb
+  name: volumeSlider(Single)
+  nameWithType: VolumeSaveController.volumeSlider(Single)
+  fullName: VolumeSaveController.volumeSlider(System.Single)
+  type: Method
+  source:
+    id: volumeSlider
+    path: ''
+    startLine: 788
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void volumeSlider(float volume)
+    parameters:
+    - id: volume
+      type: System.Single
+    content.vb: Public Sub volumeSlider(volume As Single)
+  overload: Global.VolumeSaveController.volumeSlider*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.VolumeSaveController.SaveVolumeButton
+  commentId: M:Global.VolumeSaveController.SaveVolumeButton
+  id: SaveVolumeButton
+  parent: Global.VolumeSaveController
+  langs:
+  - csharp
+  - vb
+  name: SaveVolumeButton()
+  nameWithType: VolumeSaveController.SaveVolumeButton()
+  fullName: VolumeSaveController.SaveVolumeButton()
+  type: Method
+  source:
+    id: SaveVolumeButton
+    path: ''
+    startLine: 793
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SaveVolumeButton()
+    content.vb: Public Sub SaveVolumeButton
+  overload: Global.VolumeSaveController.SaveVolumeButton*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.VolumeSaveController.ToggleHudButton
+  commentId: M:Global.VolumeSaveController.ToggleHudButton
+  id: ToggleHudButton
+  parent: Global.VolumeSaveController
+  langs:
+  - csharp
+  - vb
+  name: ToggleHudButton()
+  nameWithType: VolumeSaveController.ToggleHudButton()
+  fullName: VolumeSaveController.ToggleHudButton()
+  type: Method
+  source:
+    id: ToggleHudButton
+    path: ''
+    startLine: 800
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ToggleHudButton()
+    content.vb: Public Sub ToggleHudButton
+  overload: Global.VolumeSaveController.ToggleHudButton*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.VolumeSaveController.volumeSlider*
+  commentId: Overload:Global.VolumeSaveController.volumeSlider
+  name: volumeSlider
+  nameWithType: VolumeSaveController.volumeSlider
+  fullName: VolumeSaveController.volumeSlider
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.VolumeSaveController.SaveVolumeButton*
+  commentId: Overload:Global.VolumeSaveController.SaveVolumeButton
+  name: SaveVolumeButton
+  nameWithType: VolumeSaveController.SaveVolumeButton
+  fullName: VolumeSaveController.SaveVolumeButton
+- uid: Global.VolumeSaveController.ToggleHudButton*
+  commentId: Overload:Global.VolumeSaveController.ToggleHudButton
+  name: ToggleHudButton
+  nameWithType: VolumeSaveController.ToggleHudButton
+  fullName: VolumeSaveController.ToggleHudButton

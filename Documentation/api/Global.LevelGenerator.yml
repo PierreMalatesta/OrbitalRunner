@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.LevelGenerator
+  commentId: T:Global.LevelGenerator
+  id: LevelGenerator
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LevelGenerator
+  nameWithType: LevelGenerator
+  fullName: LevelGenerator
+  type: Class
+  source:
+    id: LevelGenerator
+    path: ''
+    startLine: 331
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class LevelGenerator : MonoBehaviour'
+    content.vb: >-
+      Public Class LevelGenerator
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''

@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DeadTouch
+  commentId: T:Global.DeadTouch
+  id: DeadTouch
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: DeadTouch
+  nameWithType: DeadTouch
+  fullName: DeadTouch
+  type: Class
+  source:
+    id: DeadTouch
+    path: ''
+    startLine: 109
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class DeadTouch : MonoBehaviour'
+    content.vb: >-
+      Public Class DeadTouch
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''

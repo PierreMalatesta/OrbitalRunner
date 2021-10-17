@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ShopControl
+  commentId: T:Global.ShopControl
+  id: ShopControl
+  parent: Global
+  children:
+  - Global.ShopControl.buyButton
+  - Global.ShopControl.buyNinja
+  - Global.ShopControl.exitShop
+  - Global.ShopControl.moneyAmountText
+  - Global.ShopControl.ninjaPrice
+  - Global.ShopControl.resetPlayerPrefs
+  langs:
+  - csharp
+  - vb
+  name: ShopControl
+  nameWithType: ShopControl
+  fullName: ShopControl
+  type: Class
+  source:
+    id: ShopControl
+    path: ''
+    startLine: 600
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ShopControl : MonoBehaviour'
+    content.vb: >-
+      Public Class ShopControl
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ShopControl.moneyAmountText
+  commentId: F:Global.ShopControl.moneyAmountText
+  id: moneyAmountText
+  parent: Global.ShopControl
+  langs:
+  - csharp
+  - vb
+  name: moneyAmountText
+  nameWithType: ShopControl.moneyAmountText
+  fullName: ShopControl.moneyAmountText
+  type: Field
+  source:
+    id: moneyAmountText
+    path: ''
+    startLine: 605
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Text moneyAmountText
+    return:
+      type: Global.Text
+    content.vb: Public moneyAmountText As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShopControl.ninjaPrice
+  commentId: F:Global.ShopControl.ninjaPrice
+  id: ninjaPrice
+  parent: Global.ShopControl
+  langs:
+  - csharp
+  - vb
+  name: ninjaPrice
+  nameWithType: ShopControl.ninjaPrice
+  fullName: ShopControl.ninjaPrice
+  type: Field
+  source:
+    id: ninjaPrice
+    path: ''
+    startLine: 606
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Text ninjaPrice
+    return:
+      type: Global.Text
+    content.vb: Public ninjaPrice As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShopControl.buyButton
+  commentId: F:Global.ShopControl.buyButton
+  id: buyButton
+  parent: Global.ShopControl
+  langs:
+  - csharp
+  - vb
+  name: buyButton
+  nameWithType: ShopControl.buyButton
+  fullName: ShopControl.buyButton
+  type: Field
+  source:
+    id: buyButton
+    path: ''
+    startLine: 608
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button buyButton
+    return:
+      type: Global.Button
+    content.vb: Public buyButton As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShopControl.buyNinja
+  commentId: M:Global.ShopControl.buyNinja
+  id: buyNinja
+  parent: Global.ShopControl
+  langs:
+  - csharp
+  - vb
+  name: buyNinja()
+  nameWithType: ShopControl.buyNinja()
+  fullName: ShopControl.buyNinja()
+  type: Method
+  source:
+    id: buyNinja
+    path: ''
+    startLine: 629
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void buyNinja()
+    content.vb: Public Sub buyNinja
+  overload: Global.ShopControl.buyNinja*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShopControl.exitShop
+  commentId: M:Global.ShopControl.exitShop
+  id: exitShop
+  parent: Global.ShopControl
+  langs:
+  - csharp
+  - vb
+  name: exitShop()
+  nameWithType: ShopControl.exitShop()
+  fullName: ShopControl.exitShop()
+  type: Method
+  source:
+    id: exitShop
+    path: ''
+    startLine: 637
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void exitShop()
+    content.vb: Public Sub exitShop
+  overload: Global.ShopControl.exitShop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShopControl.resetPlayerPrefs
+  commentId: M:Global.ShopControl.resetPlayerPrefs
+  id: resetPlayerPrefs
+  parent: Global.ShopControl
+  langs:
+  - csharp
+  - vb
+  name: resetPlayerPrefs()
+  nameWithType: ShopControl.resetPlayerPrefs()
+  fullName: ShopControl.resetPlayerPrefs()
+  type: Method
+  source:
+    id: resetPlayerPrefs
+    path: ''
+    startLine: 643
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void resetPlayerPrefs()
+    content.vb: Public Sub resetPlayerPrefs
+  overload: Global.ShopControl.resetPlayerPrefs*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Text
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: Text
+- uid: Global.Button
+  commentId: '!:Global.Button'
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Global.ShopControl.buyNinja*
+  commentId: Overload:Global.ShopControl.buyNinja
+  name: buyNinja
+  nameWithType: ShopControl.buyNinja
+  fullName: ShopControl.buyNinja
+- uid: Global.ShopControl.exitShop*
+  commentId: Overload:Global.ShopControl.exitShop
+  name: exitShop
+  nameWithType: ShopControl.exitShop
+  fullName: ShopControl.exitShop
+- uid: Global.ShopControl.resetPlayerPrefs*
+  commentId: Overload:Global.ShopControl.resetPlayerPrefs
+  name: resetPlayerPrefs
+  nameWithType: ShopControl.resetPlayerPrefs
+  fullName: ShopControl.resetPlayerPrefs

@@ -1,0 +1,4224 @@
+id: cs.temp.dll
+language: CSharp
+name:
+  Default: cs.temp.dll
+qualifiedName:
+  Default: cs.temp.dll
+type: Assembly
+modifiers: {}
+items:
+- id: Global
+  language: CSharp
+  name:
+    CSharp: Global
+    VB: ''
+  nameWithType:
+    CSharp: Global
+    VB: ''
+  qualifiedName:
+    CSharp: Global
+    VB: ''
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+  modifiers: {}
+  items:
+  - id: Global.CheckGround
+    commentId: T:Global.CheckGround
+    language: CSharp
+    name:
+      CSharp: CheckGround
+      VB: CheckGround
+    nameWithType:
+      CSharp: CheckGround
+      VB: CheckGround
+    qualifiedName:
+      CSharp: CheckGround
+      VB: CheckGround
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: CheckGround
+      path: ''
+      startLine: 5
+    syntax:
+      content:
+        CSharp: 'public class CheckGround : MonoBehaviour'
+        VB: >-
+          Public Class CheckGround
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.CheckGround.DistanceGround
+      commentId: F:Global.CheckGround.DistanceGround
+      language: CSharp
+      name:
+        CSharp: DistanceGround
+        VB: DistanceGround
+      nameWithType:
+        CSharp: CheckGround.DistanceGround
+        VB: CheckGround.DistanceGround
+      qualifiedName:
+        CSharp: CheckGround.DistanceGround
+        VB: CheckGround.DistanceGround
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: DistanceGround
+        path: ''
+        startLine: 7
+      syntax:
+        content:
+          CSharp: public float DistanceGround
+          VB: Public DistanceGround As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.CheckGround.isGrounded
+      commentId: F:Global.CheckGround.isGrounded
+      language: CSharp
+      name:
+        CSharp: isGrounded
+        VB: isGrounded
+      nameWithType:
+        CSharp: CheckGround.isGrounded
+        VB: CheckGround.isGrounded
+      qualifiedName:
+        CSharp: CheckGround.isGrounded
+        VB: CheckGround.isGrounded
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: isGrounded
+        path: ''
+        startLine: 9
+      syntax:
+        content:
+          CSharp: public bool isGrounded
+          VB: Public isGrounded As Boolean
+        return:
+          type: System.Boolean
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.Coin
+    commentId: T:Global.Coin
+    language: CSharp
+    name:
+      CSharp: Coin
+      VB: Coin
+    nameWithType:
+      CSharp: Coin
+      VB: Coin
+    qualifiedName:
+      CSharp: Coin
+      VB: Coin
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: Coin
+      path: ''
+      startLine: 38
+    syntax:
+      content:
+        CSharp: 'public class Coin : MonoBehaviour'
+        VB: >-
+          Public Class Coin
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items: []
+  - id: Global.CoinCounter
+    commentId: T:Global.CoinCounter
+    language: CSharp
+    name:
+      CSharp: CoinCounter
+      VB: CoinCounter
+    nameWithType:
+      CSharp: CoinCounter
+      VB: CoinCounter
+    qualifiedName:
+      CSharp: CoinCounter
+      VB: CoinCounter
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: CoinCounter
+      path: ''
+      startLine: 58
+    syntax:
+      content:
+        CSharp: 'public class CoinCounter : MonoBehaviour'
+        VB: >-
+          Public Class CoinCounter
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.CoinCounter.TextCoins
+      commentId: F:Global.CoinCounter.TextCoins
+      language: CSharp
+      name:
+        CSharp: TextCoins
+        VB: TextCoins
+      nameWithType:
+        CSharp: CoinCounter.TextCoins
+        VB: CoinCounter.TextCoins
+      qualifiedName:
+        CSharp: CoinCounter.TextCoins
+        VB: CoinCounter.TextCoins
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: TextCoins
+        path: ''
+        startLine: 62
+      syntax:
+        content:
+          CSharp: public TextMeshProUGUI TextCoins
+          VB: Public TextCoins As TextMeshProUGUI
+        return:
+          type: Global.TextMeshProUGUI
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.CoinCounter.OnTriggerEnter(Collider)
+      commentId: M:Global.CoinCounter.OnTriggerEnter(Collider)
+      language: CSharp
+      name:
+        CSharp: OnTriggerEnter(Collider)
+        VB: OnTriggerEnter(Collider)
+      nameWithType:
+        CSharp: CoinCounter.OnTriggerEnter(Collider)
+        VB: CoinCounter.OnTriggerEnter(Collider)
+      qualifiedName:
+        CSharp: CoinCounter.OnTriggerEnter(Collider)
+        VB: CoinCounter.OnTriggerEnter(Collider)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: OnTriggerEnter
+        path: ''
+        startLine: 64
+      syntax:
+        content:
+          CSharp: public void OnTriggerEnter(Collider other)
+          VB: Public Sub OnTriggerEnter(other As Collider)
+        parameters:
+        - id: other
+          type: Global.Collider
+      overload: Global.CoinCounter.OnTriggerEnter*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.COL
+    commentId: T:Global.COL
+    language: CSharp
+    name:
+      CSharp: COL
+      VB: COL
+    nameWithType:
+      CSharp: COL
+      VB: COL
+    qualifiedName:
+      CSharp: COL
+      VB: COL
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: COL
+      path: ''
+      startLine: 78
+    syntax:
+      content:
+        CSharp: 'public class COL : MonoBehaviour'
+        VB: >-
+          Public Class COL
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.COL.Prefab
+      commentId: F:Global.COL.Prefab
+      language: CSharp
+      name:
+        CSharp: Prefab
+        VB: Prefab
+      nameWithType:
+        CSharp: COL.Prefab
+        VB: COL.Prefab
+      qualifiedName:
+        CSharp: COL.Prefab
+        VB: COL.Prefab
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Prefab
+        path: ''
+        startLine: 80
+      syntax:
+        content:
+          CSharp: public GameObject Prefab
+          VB: Public Prefab As GameObject
+        return:
+          type: Global.GameObject
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.COL.timer
+      commentId: F:Global.COL.timer
+      language: CSharp
+      name:
+        CSharp: timer
+        VB: timer
+      nameWithType:
+        CSharp: COL.timer
+        VB: COL.timer
+      qualifiedName:
+        CSharp: COL.timer
+        VB: COL.timer
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: timer
+        path: ''
+        startLine: 82
+      syntax:
+        content:
+          CSharp: public float timer
+          VB: Public timer As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.DeadTouch
+    commentId: T:Global.DeadTouch
+    language: CSharp
+    name:
+      CSharp: DeadTouch
+      VB: DeadTouch
+    nameWithType:
+      CSharp: DeadTouch
+      VB: DeadTouch
+    qualifiedName:
+      CSharp: DeadTouch
+      VB: DeadTouch
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: DeadTouch
+      path: ''
+      startLine: 109
+    syntax:
+      content:
+        CSharp: 'public class DeadTouch : MonoBehaviour'
+        VB: >-
+          Public Class DeadTouch
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items: []
+  - id: Global.Events
+    commentId: T:Global.Events
+    language: CSharp
+    name:
+      CSharp: Events
+      VB: Events
+    nameWithType:
+      CSharp: Events
+      VB: Events
+    qualifiedName:
+      CSharp: Events
+      VB: Events
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: Events
+      path: ''
+      startLine: 122
+    syntax:
+      content:
+        CSharp: 'public class Events : MonoBehaviour'
+        VB: >-
+          Public Class Events
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.Events.LoadStore
+      commentId: M:Global.Events.LoadStore
+      language: CSharp
+      name:
+        CSharp: LoadStore()
+        VB: LoadStore()
+      nameWithType:
+        CSharp: Events.LoadStore()
+        VB: Events.LoadStore()
+      qualifiedName:
+        CSharp: Events.LoadStore()
+        VB: Events.LoadStore()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: LoadStore
+        path: ''
+        startLine: 124
+      syntax:
+        content:
+          CSharp: public void LoadStore()
+          VB: Public Sub LoadStore
+      overload: Global.Events.LoadStore*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.Events.ReplayGame
+      commentId: M:Global.Events.ReplayGame
+      language: CSharp
+      name:
+        CSharp: ReplayGame()
+        VB: ReplayGame()
+      nameWithType:
+        CSharp: Events.ReplayGame()
+        VB: Events.ReplayGame()
+      qualifiedName:
+        CSharp: Events.ReplayGame()
+        VB: Events.ReplayGame()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: ReplayGame
+        path: ''
+        startLine: 129
+      syntax:
+        content:
+          CSharp: public void ReplayGame()
+          VB: Public Sub ReplayGame
+      overload: Global.Events.ReplayGame*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.Events.QuitGame
+      commentId: M:Global.Events.QuitGame
+      language: CSharp
+      name:
+        CSharp: QuitGame()
+        VB: QuitGame()
+      nameWithType:
+        CSharp: Events.QuitGame()
+        VB: Events.QuitGame()
+      qualifiedName:
+        CSharp: Events.QuitGame()
+        VB: Events.QuitGame()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: QuitGame
+        path: ''
+        startLine: 134
+      syntax:
+        content:
+          CSharp: public void QuitGame()
+          VB: Public Sub QuitGame
+      overload: Global.Events.QuitGame*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.Events.ReplayLvlOne
+      commentId: M:Global.Events.ReplayLvlOne
+      language: CSharp
+      name:
+        CSharp: ReplayLvlOne()
+        VB: ReplayLvlOne()
+      nameWithType:
+        CSharp: Events.ReplayLvlOne()
+        VB: Events.ReplayLvlOne()
+      qualifiedName:
+        CSharp: Events.ReplayLvlOne()
+        VB: Events.ReplayLvlOne()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: ReplayLvlOne
+        path: ''
+        startLine: 139
+      syntax:
+        content:
+          CSharp: public void ReplayLvlOne()
+          VB: Public Sub ReplayLvlOne
+      overload: Global.Events.ReplayLvlOne*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.Events.ReplayLvlTwo
+      commentId: M:Global.Events.ReplayLvlTwo
+      language: CSharp
+      name:
+        CSharp: ReplayLvlTwo()
+        VB: ReplayLvlTwo()
+      nameWithType:
+        CSharp: Events.ReplayLvlTwo()
+        VB: Events.ReplayLvlTwo()
+      qualifiedName:
+        CSharp: Events.ReplayLvlTwo()
+        VB: Events.ReplayLvlTwo()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: ReplayLvlTwo
+        path: ''
+        startLine: 145
+      syntax:
+        content:
+          CSharp: public void ReplayLvlTwo()
+          VB: Public Sub ReplayLvlTwo
+      overload: Global.Events.ReplayLvlTwo*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.Events.ReplayLvlThree
+      commentId: M:Global.Events.ReplayLvlThree
+      language: CSharp
+      name:
+        CSharp: ReplayLvlThree()
+        VB: ReplayLvlThree()
+      nameWithType:
+        CSharp: Events.ReplayLvlThree()
+        VB: Events.ReplayLvlThree()
+      qualifiedName:
+        CSharp: Events.ReplayLvlThree()
+        VB: Events.ReplayLvlThree()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: ReplayLvlThree
+        path: ''
+        startLine: 151
+      syntax:
+        content:
+          CSharp: public void ReplayLvlThree()
+          VB: Public Sub ReplayLvlThree
+      overload: Global.Events.ReplayLvlThree*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.Events.ReplayLvlfour
+      commentId: M:Global.Events.ReplayLvlfour
+      language: CSharp
+      name:
+        CSharp: ReplayLvlfour()
+        VB: ReplayLvlfour()
+      nameWithType:
+        CSharp: Events.ReplayLvlfour()
+        VB: Events.ReplayLvlfour()
+      qualifiedName:
+        CSharp: Events.ReplayLvlfour()
+        VB: Events.ReplayLvlfour()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: ReplayLvlfour
+        path: ''
+        startLine: 157
+      syntax:
+        content:
+          CSharp: public void ReplayLvlfour()
+          VB: Public Sub ReplayLvlfour
+      overload: Global.Events.ReplayLvlfour*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.Events.ReplayLvlfive
+      commentId: M:Global.Events.ReplayLvlfive
+      language: CSharp
+      name:
+        CSharp: ReplayLvlfive()
+        VB: ReplayLvlfive()
+      nameWithType:
+        CSharp: Events.ReplayLvlfive()
+        VB: Events.ReplayLvlfive()
+      qualifiedName:
+        CSharp: Events.ReplayLvlfive()
+        VB: Events.ReplayLvlfive()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: ReplayLvlfive
+        path: ''
+        startLine: 162
+      syntax:
+        content:
+          CSharp: public void ReplayLvlfive()
+          VB: Public Sub ReplayLvlfive
+      overload: Global.Events.ReplayLvlfive*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.Finish
+    commentId: T:Global.Finish
+    language: CSharp
+    name:
+      CSharp: Finish
+      VB: Finish
+    nameWithType:
+      CSharp: Finish
+      VB: Finish
+    qualifiedName:
+      CSharp: Finish
+      VB: Finish
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: Finish
+      path: ''
+      startLine: 173
+    syntax:
+      content:
+        CSharp: 'public class Finish : MonoBehaviour'
+        VB: >-
+          Public Class Finish
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.Finish.FinishPanel
+      commentId: F:Global.Finish.FinishPanel
+      language: CSharp
+      name:
+        CSharp: FinishPanel
+        VB: FinishPanel
+      nameWithType:
+        CSharp: Finish.FinishPanel
+        VB: Finish.FinishPanel
+      qualifiedName:
+        CSharp: Finish.FinishPanel
+        VB: Finish.FinishPanel
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: FinishPanel
+        path: ''
+        startLine: 175
+      syntax:
+        content:
+          CSharp: public GameObject FinishPanel
+          VB: Public FinishPanel As GameObject
+        return:
+          type: Global.GameObject
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.Finish.OnTriggerEnter(Collider)
+      commentId: M:Global.Finish.OnTriggerEnter(Collider)
+      language: CSharp
+      name:
+        CSharp: OnTriggerEnter(Collider)
+        VB: OnTriggerEnter(Collider)
+      nameWithType:
+        CSharp: Finish.OnTriggerEnter(Collider)
+        VB: Finish.OnTriggerEnter(Collider)
+      qualifiedName:
+        CSharp: Finish.OnTriggerEnter(Collider)
+        VB: Finish.OnTriggerEnter(Collider)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: OnTriggerEnter
+        path: ''
+        startLine: 177
+      syntax:
+        content:
+          CSharp: public void OnTriggerEnter(Collider other)
+          VB: Public Sub OnTriggerEnter(other As Collider)
+        parameters:
+        - id: other
+          type: Global.Collider
+      overload: Global.Finish.OnTriggerEnter*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.Finish.OnTriggerExit(Collider)
+      commentId: M:Global.Finish.OnTriggerExit(Collider)
+      language: CSharp
+      name:
+        CSharp: OnTriggerExit(Collider)
+        VB: OnTriggerExit(Collider)
+      nameWithType:
+        CSharp: Finish.OnTriggerExit(Collider)
+        VB: Finish.OnTriggerExit(Collider)
+      qualifiedName:
+        CSharp: Finish.OnTriggerExit(Collider)
+        VB: Finish.OnTriggerExit(Collider)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: OnTriggerExit
+        path: ''
+        startLine: 186
+      syntax:
+        content:
+          CSharp: public void OnTriggerExit(Collider other)
+          VB: Public Sub OnTriggerExit(other As Collider)
+        parameters:
+        - id: other
+          type: Global.Collider
+      overload: Global.Finish.OnTriggerExit*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.GameControl
+    commentId: T:Global.GameControl
+    language: CSharp
+    name:
+      CSharp: GameControl
+      VB: GameControl
+    nameWithType:
+      CSharp: GameControl
+      VB: GameControl
+    qualifiedName:
+      CSharp: GameControl
+      VB: GameControl
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: GameControl
+      path: ''
+      startLine: 201
+    syntax:
+      content:
+        CSharp: 'public class GameControl : MonoBehaviour'
+        VB: >-
+          Public Class GameControl
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.GameControl.moneyText
+      commentId: F:Global.GameControl.moneyText
+      language: CSharp
+      name:
+        CSharp: moneyText
+        VB: moneyText
+      nameWithType:
+        CSharp: GameControl.moneyText
+        VB: GameControl.moneyText
+      qualifiedName:
+        CSharp: GameControl.moneyText
+        VB: GameControl.moneyText
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: moneyText
+        path: ''
+        startLine: 203
+      syntax:
+        content:
+          CSharp: public Text moneyText
+          VB: Public moneyText As Text
+        return:
+          type: Global.Text
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.GameControl.moneyAmount
+      commentId: F:Global.GameControl.moneyAmount
+      language: CSharp
+      name:
+        CSharp: moneyAmount
+        VB: moneyAmount
+      nameWithType:
+        CSharp: GameControl.moneyAmount
+        VB: GameControl.moneyAmount
+      qualifiedName:
+        CSharp: GameControl.moneyAmount
+        VB: GameControl.moneyAmount
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: moneyAmount
+        path: ''
+        startLine: 204
+      syntax:
+        content:
+          CSharp: public static int moneyAmount
+          VB: Public Shared moneyAmount As Integer
+        return:
+          type: System.Int32
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: Global.GameControl.Ninja
+      commentId: F:Global.GameControl.Ninja
+      language: CSharp
+      name:
+        CSharp: Ninja
+        VB: Ninja
+      nameWithType:
+        CSharp: GameControl.Ninja
+        VB: GameControl.Ninja
+      qualifiedName:
+        CSharp: GameControl.Ninja
+        VB: GameControl.Ninja
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Ninja
+        path: ''
+        startLine: 206
+      syntax:
+        content:
+          CSharp: public GameObject Ninja
+          VB: Public Ninja As GameObject
+        return:
+          type: Global.GameObject
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.GameControl.FirstPlayer
+      commentId: F:Global.GameControl.FirstPlayer
+      language: CSharp
+      name:
+        CSharp: FirstPlayer
+        VB: FirstPlayer
+      nameWithType:
+        CSharp: GameControl.FirstPlayer
+        VB: GameControl.FirstPlayer
+      qualifiedName:
+        CSharp: GameControl.FirstPlayer
+        VB: GameControl.FirstPlayer
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: FirstPlayer
+        path: ''
+        startLine: 207
+      syntax:
+        content:
+          CSharp: public GameObject FirstPlayer
+          VB: Public FirstPlayer As GameObject
+        return:
+          type: Global.GameObject
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.GameControl.SecondJump
+      commentId: F:Global.GameControl.SecondJump
+      language: CSharp
+      name:
+        CSharp: SecondJump
+        VB: SecondJump
+      nameWithType:
+        CSharp: GameControl.SecondJump
+        VB: GameControl.SecondJump
+      qualifiedName:
+        CSharp: GameControl.SecondJump
+        VB: GameControl.SecondJump
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: SecondJump
+        path: ''
+        startLine: 208
+      syntax:
+        content:
+          CSharp: public GameObject SecondJump
+          VB: Public SecondJump As GameObject
+        return:
+          type: Global.GameObject
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.GameControl.SecondSlide
+      commentId: F:Global.GameControl.SecondSlide
+      language: CSharp
+      name:
+        CSharp: SecondSlide
+        VB: SecondSlide
+      nameWithType:
+        CSharp: GameControl.SecondSlide
+        VB: GameControl.SecondSlide
+      qualifiedName:
+        CSharp: GameControl.SecondSlide
+        VB: GameControl.SecondSlide
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: SecondSlide
+        path: ''
+        startLine: 209
+      syntax:
+        content:
+          CSharp: public GameObject SecondSlide
+          VB: Public SecondSlide As GameObject
+        return:
+          type: Global.GameObject
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.GameControl.gotoShop
+      commentId: M:Global.GameControl.gotoShop
+      language: CSharp
+      name:
+        CSharp: gotoShop()
+        VB: gotoShop()
+      nameWithType:
+        CSharp: GameControl.gotoShop()
+        VB: GameControl.gotoShop()
+      qualifiedName:
+        CSharp: GameControl.gotoShop()
+        VB: GameControl.gotoShop()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: gotoShop
+        path: ''
+        startLine: 240
+      syntax:
+        content:
+          CSharp: public void gotoShop()
+          VB: Public Sub gotoShop
+      overload: Global.GameControl.gotoShop*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.GameManager
+    commentId: T:Global.GameManager
+    language: CSharp
+    name:
+      CSharp: GameManager
+      VB: GameManager
+    nameWithType:
+      CSharp: GameManager
+      VB: GameManager
+    qualifiedName:
+      CSharp: GameManager
+      VB: GameManager
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: GameManager
+      path: ''
+      startLine: 252
+    syntax:
+      content:
+        CSharp: 'public class GameManager : MonoBehaviour'
+        VB: >-
+          Public Class GameManager
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.GameManager.restartDelay
+      commentId: F:Global.GameManager.restartDelay
+      language: CSharp
+      name:
+        CSharp: restartDelay
+        VB: restartDelay
+      nameWithType:
+        CSharp: GameManager.restartDelay
+        VB: GameManager.restartDelay
+      qualifiedName:
+        CSharp: GameManager.restartDelay
+        VB: GameManager.restartDelay
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: restartDelay
+        path: ''
+        startLine: 255
+      syntax:
+        content:
+          CSharp: public float restartDelay
+          VB: Public restartDelay As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.GameManager.EndGame
+      commentId: M:Global.GameManager.EndGame
+      language: CSharp
+      name:
+        CSharp: EndGame()
+        VB: EndGame()
+      nameWithType:
+        CSharp: GameManager.EndGame()
+        VB: GameManager.EndGame()
+      qualifiedName:
+        CSharp: GameManager.EndGame()
+        VB: GameManager.EndGame()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: EndGame
+        path: ''
+        startLine: 257
+      syntax:
+        content:
+          CSharp: public void EndGame()
+          VB: Public Sub
+      overload: Global.GameManager.EndGame*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.HUD
+    commentId: T:Global.HUD
+    language: CSharp
+    name:
+      CSharp: HUD
+      VB: HUD
+    nameWithType:
+      CSharp: HUD
+      VB: HUD
+    qualifiedName:
+      CSharp: HUD
+      VB: HUD
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: HUD
+      path: ''
+      startLine: 317
+    syntax:
+      content:
+        CSharp: 'public class HUD : MonoBehaviour'
+        VB: >-
+          Public Class HUD
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.HUD.hudDisable
+      commentId: M:Global.HUD.hudDisable
+      language: CSharp
+      name:
+        CSharp: hudDisable()
+        VB: hudDisable()
+      nameWithType:
+        CSharp: HUD.hudDisable()
+        VB: HUD.hudDisable()
+      qualifiedName:
+        CSharp: HUD.hudDisable()
+        VB: HUD.hudDisable()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: hudDisable
+        path: ''
+        startLine: 321
+      syntax:
+        content:
+          CSharp: public void hudDisable()
+          VB: Public Sub hudDisable
+      overload: Global.HUD.hudDisable*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.LevelGenerator
+    commentId: T:Global.LevelGenerator
+    language: CSharp
+    name:
+      CSharp: LevelGenerator
+      VB: LevelGenerator
+    nameWithType:
+      CSharp: LevelGenerator
+      VB: LevelGenerator
+    qualifiedName:
+      CSharp: LevelGenerator
+      VB: LevelGenerator
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: LevelGenerator
+      path: ''
+      startLine: 331
+    syntax:
+      content:
+        CSharp: 'public class LevelGenerator : MonoBehaviour'
+        VB: >-
+          Public Class LevelGenerator
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items: []
+  - id: Global.MainMenu
+    commentId: T:Global.MainMenu
+    language: CSharp
+    name:
+      CSharp: MainMenu
+      VB: MainMenu
+    nameWithType:
+      CSharp: MainMenu
+      VB: MainMenu
+    qualifiedName:
+      CSharp: MainMenu
+      VB: MainMenu
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: MainMenu
+      path: ''
+      startLine: 354
+    syntax:
+      content:
+        CSharp: 'public class MainMenu : MonoBehaviour'
+        VB: >-
+          Public Class MainMenu
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.MainMenu.PlayGame
+      commentId: M:Global.MainMenu.PlayGame
+      language: CSharp
+      name:
+        CSharp: PlayGame()
+        VB: PlayGame()
+      nameWithType:
+        CSharp: MainMenu.PlayGame()
+        VB: MainMenu.PlayGame()
+      qualifiedName:
+        CSharp: MainMenu.PlayGame()
+        VB: MainMenu.PlayGame()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: PlayGame
+        path: ''
+        startLine: 356
+      syntax:
+        content:
+          CSharp: public void PlayGame()
+          VB: Public Sub PlayGame
+      overload: Global.MainMenu.PlayGame*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.MainMenu.QuitGame
+      commentId: M:Global.MainMenu.QuitGame
+      language: CSharp
+      name:
+        CSharp: QuitGame()
+        VB: QuitGame()
+      nameWithType:
+        CSharp: MainMenu.QuitGame()
+        VB: MainMenu.QuitGame()
+      qualifiedName:
+        CSharp: MainMenu.QuitGame()
+        VB: MainMenu.QuitGame()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: QuitGame
+        path: ''
+        startLine: 361
+      syntax:
+        content:
+          CSharp: public void QuitGame()
+          VB: Public Sub QuitGame
+      overload: Global.MainMenu.QuitGame*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.MainMenu.LoadCredits
+      commentId: M:Global.MainMenu.LoadCredits
+      language: CSharp
+      name:
+        CSharp: LoadCredits()
+        VB: LoadCredits()
+      nameWithType:
+        CSharp: MainMenu.LoadCredits()
+        VB: MainMenu.LoadCredits()
+      qualifiedName:
+        CSharp: MainMenu.LoadCredits()
+        VB: MainMenu.LoadCredits()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: LoadCredits
+        path: ''
+        startLine: 366
+      syntax:
+        content:
+          CSharp: public void LoadCredits()
+          VB: Public Sub LoadCredits
+      overload: Global.MainMenu.LoadCredits*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.MainMenu.LoadOptions
+      commentId: M:Global.MainMenu.LoadOptions
+      language: CSharp
+      name:
+        CSharp: LoadOptions()
+        VB: LoadOptions()
+      nameWithType:
+        CSharp: MainMenu.LoadOptions()
+        VB: MainMenu.LoadOptions()
+      qualifiedName:
+        CSharp: MainMenu.LoadOptions()
+        VB: MainMenu.LoadOptions()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: LoadOptions
+        path: ''
+        startLine: 371
+      syntax:
+        content:
+          CSharp: public void LoadOptions()
+          VB: Public Sub LoadOptions
+      overload: Global.MainMenu.LoadOptions*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.MainMenu.LoadLevel
+      commentId: M:Global.MainMenu.LoadLevel
+      language: CSharp
+      name:
+        CSharp: LoadLevel()
+        VB: LoadLevel()
+      nameWithType:
+        CSharp: MainMenu.LoadLevel()
+        VB: MainMenu.LoadLevel()
+      qualifiedName:
+        CSharp: MainMenu.LoadLevel()
+        VB: MainMenu.LoadLevel()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: LoadLevel
+        path: ''
+        startLine: 376
+      syntax:
+        content:
+          CSharp: public void LoadLevel()
+          VB: Public Sub LoadLevel
+      overload: Global.MainMenu.LoadLevel*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.MainMenu.Level1
+      commentId: M:Global.MainMenu.Level1
+      language: CSharp
+      name:
+        CSharp: Level1()
+        VB: Level1()
+      nameWithType:
+        CSharp: MainMenu.Level1()
+        VB: MainMenu.Level1()
+      qualifiedName:
+        CSharp: MainMenu.Level1()
+        VB: MainMenu.Level1()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Level1
+        path: ''
+        startLine: 382
+      syntax:
+        content:
+          CSharp: public void Level1()
+          VB: Public Sub Level1
+      overload: Global.MainMenu.Level1*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.MainMenu.Level2
+      commentId: M:Global.MainMenu.Level2
+      language: CSharp
+      name:
+        CSharp: Level2()
+        VB: Level2()
+      nameWithType:
+        CSharp: MainMenu.Level2()
+        VB: MainMenu.Level2()
+      qualifiedName:
+        CSharp: MainMenu.Level2()
+        VB: MainMenu.Level2()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Level2
+        path: ''
+        startLine: 386
+      syntax:
+        content:
+          CSharp: public void Level2()
+          VB: Public Sub Level2
+      overload: Global.MainMenu.Level2*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.MainMenu.Level3
+      commentId: M:Global.MainMenu.Level3
+      language: CSharp
+      name:
+        CSharp: Level3()
+        VB: Level3()
+      nameWithType:
+        CSharp: MainMenu.Level3()
+        VB: MainMenu.Level3()
+      qualifiedName:
+        CSharp: MainMenu.Level3()
+        VB: MainMenu.Level3()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Level3
+        path: ''
+        startLine: 391
+      syntax:
+        content:
+          CSharp: public void Level3()
+          VB: Public Sub Level3
+      overload: Global.MainMenu.Level3*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.MainMenu.Level4
+      commentId: M:Global.MainMenu.Level4
+      language: CSharp
+      name:
+        CSharp: Level4()
+        VB: Level4()
+      nameWithType:
+        CSharp: MainMenu.Level4()
+        VB: MainMenu.Level4()
+      qualifiedName:
+        CSharp: MainMenu.Level4()
+        VB: MainMenu.Level4()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Level4
+        path: ''
+        startLine: 396
+      syntax:
+        content:
+          CSharp: public void Level4()
+          VB: Public Sub Level4
+      overload: Global.MainMenu.Level4*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.MainMenu.Level5
+      commentId: M:Global.MainMenu.Level5
+      language: CSharp
+      name:
+        CSharp: Level5()
+        VB: Level5()
+      nameWithType:
+        CSharp: MainMenu.Level5()
+        VB: MainMenu.Level5()
+      qualifiedName:
+        CSharp: MainMenu.Level5()
+        VB: MainMenu.Level5()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Level5
+        path: ''
+        startLine: 401
+      syntax:
+        content:
+          CSharp: public void Level5()
+          VB: Public Sub Level5
+      overload: Global.MainMenu.Level5*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.Pause
+    commentId: T:Global.Pause
+    language: CSharp
+    name:
+      CSharp: Pause
+      VB: Pause
+    nameWithType:
+      CSharp: Pause
+      VB: Pause
+    qualifiedName:
+      CSharp: Pause
+      VB: Pause
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: Pause
+      path: ''
+      startLine: 412
+    syntax:
+      content:
+        CSharp: 'public class Pause : MonoBehaviour'
+        VB: >-
+          Public Class Pause
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.Pause.Panel
+      commentId: F:Global.Pause.Panel
+      language: CSharp
+      name:
+        CSharp: Panel
+        VB: Panel
+      nameWithType:
+        CSharp: Pause.Panel
+        VB: Pause.Panel
+      qualifiedName:
+        CSharp: Pause.Panel
+        VB: Pause.Panel
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Panel
+        path: ''
+        startLine: 414
+      syntax:
+        content:
+          CSharp: public GameObject Panel
+          VB: Public Panel As GameObject
+        return:
+          type: Global.GameObject
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.Pause.OpenPanel
+      commentId: M:Global.Pause.OpenPanel
+      language: CSharp
+      name:
+        CSharp: OpenPanel()
+        VB: OpenPanel()
+      nameWithType:
+        CSharp: Pause.OpenPanel()
+        VB: Pause.OpenPanel()
+      qualifiedName:
+        CSharp: Pause.OpenPanel()
+        VB: Pause.OpenPanel()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: OpenPanel
+        path: ''
+        startLine: 416
+      syntax:
+        content:
+          CSharp: public void OpenPanel()
+          VB: Public Sub OpenPanel
+      overload: Global.Pause.OpenPanel*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.Pause.PauseThisGame
+      commentId: M:Global.Pause.PauseThisGame
+      language: CSharp
+      name:
+        CSharp: PauseThisGame()
+        VB: PauseThisGame()
+      nameWithType:
+        CSharp: Pause.PauseThisGame()
+        VB: Pause.PauseThisGame()
+      qualifiedName:
+        CSharp: Pause.PauseThisGame()
+        VB: Pause.PauseThisGame()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: PauseThisGame
+        path: ''
+        startLine: 425
+      syntax:
+        content:
+          CSharp: public void PauseThisGame()
+          VB: Public Sub PauseThisGame
+      overload: Global.Pause.PauseThisGame*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.Pause.ResumeGame
+      commentId: M:Global.Pause.ResumeGame
+      language: CSharp
+      name:
+        CSharp: ResumeGame()
+        VB: ResumeGame()
+      nameWithType:
+        CSharp: Pause.ResumeGame()
+        VB: Pause.ResumeGame()
+      qualifiedName:
+        CSharp: Pause.ResumeGame()
+        VB: Pause.ResumeGame()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: ResumeGame
+        path: ''
+        startLine: 433
+      syntax:
+        content:
+          CSharp: public void ResumeGame()
+          VB: Public Sub ResumeGame
+      overload: Global.Pause.ResumeGame*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.PlayerControls
+    commentId: T:Global.PlayerControls
+    language: CSharp
+    name:
+      CSharp: PlayerControls
+      VB: PlayerControls
+    nameWithType:
+      CSharp: PlayerControls
+      VB: PlayerControls
+    qualifiedName:
+      CSharp: PlayerControls
+      VB: PlayerControls
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: PlayerControls
+      path: ''
+      startLine: 454
+    syntax:
+      content:
+        CSharp: 'public class PlayerControls : MonoBehaviour'
+        VB: >-
+          Public Class PlayerControls
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.PlayerControls.rb
+      commentId: F:Global.PlayerControls.rb
+      language: CSharp
+      name:
+        CSharp: rb
+        VB: rb
+      nameWithType:
+        CSharp: PlayerControls.rb
+        VB: PlayerControls.rb
+      qualifiedName:
+        CSharp: PlayerControls.rb
+        VB: PlayerControls.rb
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: rb
+        path: ''
+        startLine: 456
+      syntax:
+        content:
+          CSharp: public Rigidbody rb
+          VB: Public rb As Rigidbody
+        return:
+          type: Global.Rigidbody
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.PlayerControls.jump
+      commentId: F:Global.PlayerControls.jump
+      language: CSharp
+      name:
+        CSharp: jump
+        VB: jump
+      nameWithType:
+        CSharp: PlayerControls.jump
+        VB: PlayerControls.jump
+      qualifiedName:
+        CSharp: PlayerControls.jump
+        VB: PlayerControls.jump
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: jump
+        path: ''
+        startLine: 460
+      syntax:
+        content:
+          CSharp: public float jump
+          VB: Public jump As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.PlayerControls.isJumping
+      commentId: F:Global.PlayerControls.isJumping
+      language: CSharp
+      name:
+        CSharp: isJumping
+        VB: isJumping
+      nameWithType:
+        CSharp: PlayerControls.isJumping
+        VB: PlayerControls.isJumping
+      qualifiedName:
+        CSharp: PlayerControls.isJumping
+        VB: PlayerControls.isJumping
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: isJumping
+        path: ''
+        startLine: 461
+      syntax:
+        content:
+          CSharp: public bool isJumping
+          VB: Public isJumping As Boolean
+        return:
+          type: System.Boolean
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.PlayerControls.Jump
+      commentId: F:Global.PlayerControls.Jump
+      language: CSharp
+      name:
+        CSharp: Jump
+        VB: Jump
+      nameWithType:
+        CSharp: PlayerControls.Jump
+        VB: PlayerControls.Jump
+      qualifiedName:
+        CSharp: PlayerControls.Jump
+        VB: PlayerControls.Jump
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Jump
+        path: ''
+        startLine: 462
+      syntax:
+        content:
+          CSharp: public bool Jump
+          VB: Public Jump As Boolean
+        return:
+          type: System.Boolean
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.PlayerControls.LandSpeed
+      commentId: F:Global.PlayerControls.LandSpeed
+      language: CSharp
+      name:
+        CSharp: LandSpeed
+        VB: LandSpeed
+      nameWithType:
+        CSharp: PlayerControls.LandSpeed
+        VB: PlayerControls.LandSpeed
+      qualifiedName:
+        CSharp: PlayerControls.LandSpeed
+        VB: PlayerControls.LandSpeed
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: LandSpeed
+        path: ''
+        startLine: 464
+      syntax:
+        content:
+          CSharp: public float LandSpeed
+          VB: Public LandSpeed As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.PlayerControls.reducedHeight
+      commentId: F:Global.PlayerControls.reducedHeight
+      language: CSharp
+      name:
+        CSharp: reducedHeight
+        VB: reducedHeight
+      nameWithType:
+        CSharp: PlayerControls.reducedHeight
+        VB: PlayerControls.reducedHeight
+      qualifiedName:
+        CSharp: PlayerControls.reducedHeight
+        VB: PlayerControls.reducedHeight
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: reducedHeight
+        path: ''
+        startLine: 467
+      syntax:
+        content:
+          CSharp: public float reducedHeight
+          VB: Public reducedHeight As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.PlayerControls.slideSpeed
+      commentId: F:Global.PlayerControls.slideSpeed
+      language: CSharp
+      name:
+        CSharp: slideSpeed
+        VB: slideSpeed
+      nameWithType:
+        CSharp: PlayerControls.slideSpeed
+        VB: PlayerControls.slideSpeed
+      qualifiedName:
+        CSharp: PlayerControls.slideSpeed
+        VB: PlayerControls.slideSpeed
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: slideSpeed
+        path: ''
+        startLine: 468
+      syntax:
+        content:
+          CSharp: public float slideSpeed
+          VB: Public slideSpeed As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.PlayerControls.isSliding
+      commentId: F:Global.PlayerControls.isSliding
+      language: CSharp
+      name:
+        CSharp: isSliding
+        VB: isSliding
+      nameWithType:
+        CSharp: PlayerControls.isSliding
+        VB: PlayerControls.isSliding
+      qualifiedName:
+        CSharp: PlayerControls.isSliding
+        VB: PlayerControls.isSliding
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: isSliding
+        path: ''
+        startLine: 469
+      syntax:
+        content:
+          CSharp: public bool isSliding
+          VB: Public isSliding As Boolean
+        return:
+          type: System.Boolean
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.PlayerControls.gameOverPanel
+      commentId: F:Global.PlayerControls.gameOverPanel
+      language: CSharp
+      name:
+        CSharp: gameOverPanel
+        VB: gameOverPanel
+      nameWithType:
+        CSharp: PlayerControls.gameOverPanel
+        VB: PlayerControls.gameOverPanel
+      qualifiedName:
+        CSharp: PlayerControls.gameOverPanel
+        VB: PlayerControls.gameOverPanel
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: gameOverPanel
+        path: ''
+        startLine: 478
+      syntax:
+        content:
+          CSharp: public GameObject gameOverPanel
+          VB: Public gameOverPanel As GameObject
+        return:
+          type: Global.GameObject
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.PlayerControls.SlideTimer
+      commentId: F:Global.PlayerControls.SlideTimer
+      language: CSharp
+      name:
+        CSharp: SlideTimer
+        VB: SlideTimer
+      nameWithType:
+        CSharp: PlayerControls.SlideTimer
+        VB: PlayerControls.SlideTimer
+      qualifiedName:
+        CSharp: PlayerControls.SlideTimer
+        VB: PlayerControls.SlideTimer
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: SlideTimer
+        path: ''
+        startLine: 480
+      syntax:
+        content:
+          CSharp: public float SlideTimer
+          VB: Public SlideTimer As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.PlayerControls.OnJump
+      commentId: M:Global.PlayerControls.OnJump
+      language: CSharp
+      name:
+        CSharp: OnJump()
+        VB: OnJump()
+      nameWithType:
+        CSharp: PlayerControls.OnJump()
+        VB: PlayerControls.OnJump()
+      qualifiedName:
+        CSharp: PlayerControls.OnJump()
+        VB: PlayerControls.OnJump()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: OnJump
+        path: ''
+        startLine: 535
+      syntax:
+        content:
+          CSharp: public void OnJump()
+          VB: Public Sub OnJump
+      overload: Global.PlayerControls.OnJump*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.PlayerControls.Slide
+      commentId: M:Global.PlayerControls.Slide
+      language: CSharp
+      name:
+        CSharp: Slide()
+        VB: Slide()
+      nameWithType:
+        CSharp: PlayerControls.Slide()
+        VB: PlayerControls.Slide()
+      qualifiedName:
+        CSharp: PlayerControls.Slide()
+        VB: PlayerControls.Slide()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Slide
+        path: ''
+        startLine: 544
+      syntax:
+        content:
+          CSharp: public void Slide()
+          VB: Public Sub Slide
+      overload: Global.PlayerControls.Slide*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.PlayerControls.GoingUp
+      commentId: M:Global.PlayerControls.GoingUp
+      language: CSharp
+      name:
+        CSharp: GoingUp()
+        VB: GoingUp()
+      nameWithType:
+        CSharp: PlayerControls.GoingUp()
+        VB: PlayerControls.GoingUp()
+      qualifiedName:
+        CSharp: PlayerControls.GoingUp()
+        VB: PlayerControls.GoingUp()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: GoingUp
+        path: ''
+        startLine: 561
+      syntax:
+        content:
+          CSharp: public void GoingUp()
+          VB: Public Sub GoingUp
+      overload: Global.PlayerControls.GoingUp*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.ShopControl
+    commentId: T:Global.ShopControl
+    language: CSharp
+    name:
+      CSharp: ShopControl
+      VB: ShopControl
+    nameWithType:
+      CSharp: ShopControl
+      VB: ShopControl
+    qualifiedName:
+      CSharp: ShopControl
+      VB: ShopControl
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: ShopControl
+      path: ''
+      startLine: 600
+    syntax:
+      content:
+        CSharp: 'public class ShopControl : MonoBehaviour'
+        VB: >-
+          Public Class ShopControl
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.ShopControl.moneyAmountText
+      commentId: F:Global.ShopControl.moneyAmountText
+      language: CSharp
+      name:
+        CSharp: moneyAmountText
+        VB: moneyAmountText
+      nameWithType:
+        CSharp: ShopControl.moneyAmountText
+        VB: ShopControl.moneyAmountText
+      qualifiedName:
+        CSharp: ShopControl.moneyAmountText
+        VB: ShopControl.moneyAmountText
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: moneyAmountText
+        path: ''
+        startLine: 605
+      syntax:
+        content:
+          CSharp: public Text moneyAmountText
+          VB: Public moneyAmountText As Text
+        return:
+          type: Global.Text
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.ShopControl.ninjaPrice
+      commentId: F:Global.ShopControl.ninjaPrice
+      language: CSharp
+      name:
+        CSharp: ninjaPrice
+        VB: ninjaPrice
+      nameWithType:
+        CSharp: ShopControl.ninjaPrice
+        VB: ShopControl.ninjaPrice
+      qualifiedName:
+        CSharp: ShopControl.ninjaPrice
+        VB: ShopControl.ninjaPrice
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: ninjaPrice
+        path: ''
+        startLine: 606
+      syntax:
+        content:
+          CSharp: public Text ninjaPrice
+          VB: Public ninjaPrice As Text
+        return:
+          type: Global.Text
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.ShopControl.buyButton
+      commentId: F:Global.ShopControl.buyButton
+      language: CSharp
+      name:
+        CSharp: buyButton
+        VB: buyButton
+      nameWithType:
+        CSharp: ShopControl.buyButton
+        VB: ShopControl.buyButton
+      qualifiedName:
+        CSharp: ShopControl.buyButton
+        VB: ShopControl.buyButton
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: buyButton
+        path: ''
+        startLine: 608
+      syntax:
+        content:
+          CSharp: public Button buyButton
+          VB: Public buyButton As Button
+        return:
+          type: Global.Button
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.ShopControl.buyNinja
+      commentId: M:Global.ShopControl.buyNinja
+      language: CSharp
+      name:
+        CSharp: buyNinja()
+        VB: buyNinja()
+      nameWithType:
+        CSharp: ShopControl.buyNinja()
+        VB: ShopControl.buyNinja()
+      qualifiedName:
+        CSharp: ShopControl.buyNinja()
+        VB: ShopControl.buyNinja()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: buyNinja
+        path: ''
+        startLine: 629
+      syntax:
+        content:
+          CSharp: public void buyNinja()
+          VB: Public Sub buyNinja
+      overload: Global.ShopControl.buyNinja*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.ShopControl.exitShop
+      commentId: M:Global.ShopControl.exitShop
+      language: CSharp
+      name:
+        CSharp: exitShop()
+        VB: exitShop()
+      nameWithType:
+        CSharp: ShopControl.exitShop()
+        VB: ShopControl.exitShop()
+      qualifiedName:
+        CSharp: ShopControl.exitShop()
+        VB: ShopControl.exitShop()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: exitShop
+        path: ''
+        startLine: 637
+      syntax:
+        content:
+          CSharp: public void exitShop()
+          VB: Public Sub exitShop
+      overload: Global.ShopControl.exitShop*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.ShopControl.resetPlayerPrefs
+      commentId: M:Global.ShopControl.resetPlayerPrefs
+      language: CSharp
+      name:
+        CSharp: resetPlayerPrefs()
+        VB: resetPlayerPrefs()
+      nameWithType:
+        CSharp: ShopControl.resetPlayerPrefs()
+        VB: ShopControl.resetPlayerPrefs()
+      qualifiedName:
+        CSharp: ShopControl.resetPlayerPrefs()
+        VB: ShopControl.resetPlayerPrefs()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: resetPlayerPrefs
+        path: ''
+        startLine: 643
+      syntax:
+        content:
+          CSharp: public void resetPlayerPrefs()
+          VB: Public Sub resetPlayerPrefs
+      overload: Global.ShopControl.resetPlayerPrefs*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.SpawnScript
+    commentId: T:Global.SpawnScript
+    language: CSharp
+    name:
+      CSharp: SpawnScript
+      VB: SpawnScript
+    nameWithType:
+      CSharp: SpawnScript
+      VB: SpawnScript
+    qualifiedName:
+      CSharp: SpawnScript
+      VB: SpawnScript
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: SpawnScript
+      path: ''
+      startLine: 658
+    syntax:
+      content:
+        CSharp: 'public class SpawnScript : MonoBehaviour'
+        VB: >-
+          Public Class SpawnScript
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.SpawnScript.obj
+      commentId: F:Global.SpawnScript.obj
+      language: CSharp
+      name:
+        CSharp: obj
+        VB: obj
+      nameWithType:
+        CSharp: SpawnScript.obj
+        VB: SpawnScript.obj
+      qualifiedName:
+        CSharp: SpawnScript.obj
+        VB: SpawnScript.obj
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: obj
+        path: ''
+        startLine: 660
+      syntax:
+        content:
+          CSharp: public GameObject[] obj
+          VB: Public obj As GameObject()
+        return:
+          type: Global.GameObject[]
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.SpawnScript.spawnInterval
+      commentId: F:Global.SpawnScript.spawnInterval
+      language: CSharp
+      name:
+        CSharp: spawnInterval
+        VB: spawnInterval
+      nameWithType:
+        CSharp: SpawnScript.spawnInterval
+        VB: SpawnScript.spawnInterval
+      qualifiedName:
+        CSharp: SpawnScript.spawnInterval
+        VB: SpawnScript.spawnInterval
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: spawnInterval
+        path: ''
+        startLine: 661
+      syntax:
+        content:
+          CSharp: public float spawnInterval
+          VB: Public spawnInterval As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.SpawnScript.pos
+      commentId: F:Global.SpawnScript.pos
+      language: CSharp
+      name:
+        CSharp: pos
+        VB: pos
+      nameWithType:
+        CSharp: SpawnScript.pos
+        VB: SpawnScript.pos
+      qualifiedName:
+        CSharp: SpawnScript.pos
+        VB: SpawnScript.pos
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: pos
+        path: ''
+        startLine: 662
+      syntax:
+        content:
+          CSharp: public Vector3 pos
+          VB: Public pos As Vector3
+        return:
+          type: Global.Vector3
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.SpawnScript.size
+      commentId: F:Global.SpawnScript.size
+      language: CSharp
+      name:
+        CSharp: size
+        VB: size
+      nameWithType:
+        CSharp: SpawnScript.size
+        VB: SpawnScript.size
+      qualifiedName:
+        CSharp: SpawnScript.size
+        VB: SpawnScript.size
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: size
+        path: ''
+        startLine: 663
+      syntax:
+        content:
+          CSharp: public float size
+          VB: Public size As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.SpawnScript.maxPlatforms
+      commentId: F:Global.SpawnScript.maxPlatforms
+      language: CSharp
+      name:
+        CSharp: maxPlatforms
+        VB: maxPlatforms
+      nameWithType:
+        CSharp: SpawnScript.maxPlatforms
+        VB: SpawnScript.maxPlatforms
+      qualifiedName:
+        CSharp: SpawnScript.maxPlatforms
+        VB: SpawnScript.maxPlatforms
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: maxPlatforms
+        path: ''
+        startLine: 667
+      syntax:
+        content:
+          CSharp: public int maxPlatforms
+          VB: Public maxPlatforms As Integer
+        return:
+          type: System.Int32
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.SpawnScript.player
+      commentId: F:Global.SpawnScript.player
+      language: CSharp
+      name:
+        CSharp: player
+        VB: player
+      nameWithType:
+        CSharp: SpawnScript.player
+        VB: SpawnScript.player
+      qualifiedName:
+        CSharp: SpawnScript.player
+        VB: SpawnScript.player
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: player
+        path: ''
+        startLine: 669
+      syntax:
+        content:
+          CSharp: public Transform player
+          VB: Public player As Transform
+        return:
+          type: Global.Transform
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.TimerScript
+    commentId: T:Global.TimerScript
+    language: CSharp
+    name:
+      CSharp: TimerScript
+      VB: TimerScript
+    nameWithType:
+      CSharp: TimerScript
+      VB: TimerScript
+    qualifiedName:
+      CSharp: TimerScript
+      VB: TimerScript
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: TimerScript
+      path: ''
+      startLine: 707
+    syntax:
+      content:
+        CSharp: 'public class TimerScript : MonoBehaviour'
+        VB: >-
+          Public Class TimerScript
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.TimerScript.TimerText
+      commentId: F:Global.TimerScript.TimerText
+      language: CSharp
+      name:
+        CSharp: TimerText
+        VB: TimerText
+      nameWithType:
+        CSharp: TimerScript.TimerText
+        VB: TimerScript.TimerText
+      qualifiedName:
+        CSharp: TimerScript.TimerText
+        VB: TimerScript.TimerText
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: TimerText
+        path: ''
+        startLine: 709
+      syntax:
+        content:
+          CSharp: public Text TimerText
+          VB: Public TimerText As Text
+        return:
+          type: Global.Text
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.TimerScript.Finnish
+      commentId: M:Global.TimerScript.Finnish
+      language: CSharp
+      name:
+        CSharp: Finnish()
+        VB: Finnish()
+      nameWithType:
+        CSharp: TimerScript.Finnish()
+        VB: TimerScript.Finnish()
+      qualifiedName:
+        CSharp: TimerScript.Finnish()
+        VB: TimerScript.Finnish()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Finnish
+        path: ''
+        startLine: 737
+      syntax:
+        content:
+          CSharp: public void Finnish()
+          VB: Public Sub Finnish
+      overload: Global.TimerScript.Finnish*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.Touch
+    commentId: T:Global.Touch
+    language: CSharp
+    name:
+      CSharp: Touch
+      VB: Touch
+    nameWithType:
+      CSharp: Touch
+      VB: Touch
+    qualifiedName:
+      CSharp: Touch
+      VB: Touch
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: Touch
+      path: ''
+      startLine: 749
+    syntax:
+      content:
+        CSharp: 'public class Touch : MonoBehaviour'
+        VB: >-
+          Public Class Touch
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.Touch.player
+      commentId: F:Global.Touch.player
+      language: CSharp
+      name:
+        CSharp: player
+        VB: player
+      nameWithType:
+        CSharp: Touch.player
+        VB: Touch.player
+      qualifiedName:
+        CSharp: Touch.player
+        VB: Touch.player
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: player
+        path: ''
+        startLine: 751
+      syntax:
+        content:
+          CSharp: public PlayerControls player
+          VB: Public player As PlayerControls
+        return:
+          type: Global.PlayerControls
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.Touch.MakePlayerJump
+      commentId: M:Global.Touch.MakePlayerJump
+      language: CSharp
+      name:
+        CSharp: MakePlayerJump()
+        VB: MakePlayerJump()
+      nameWithType:
+        CSharp: Touch.MakePlayerJump()
+        VB: Touch.MakePlayerJump()
+      qualifiedName:
+        CSharp: Touch.MakePlayerJump()
+        VB: Touch.MakePlayerJump()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: MakePlayerJump
+        path: ''
+        startLine: 760
+      syntax:
+        content:
+          CSharp: public void MakePlayerJump()
+          VB: Public Sub MakePlayerJump
+      overload: Global.Touch.MakePlayerJump*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.VolumeSaveController
+    commentId: T:Global.VolumeSaveController
+    language: CSharp
+    name:
+      CSharp: VolumeSaveController
+      VB: VolumeSaveController
+    nameWithType:
+      CSharp: VolumeSaveController
+      VB: VolumeSaveController
+    qualifiedName:
+      CSharp: VolumeSaveController
+      VB: VolumeSaveController
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: VolumeSaveController
+      path: ''
+      startLine: 773
+    syntax:
+      content:
+        CSharp: 'public class VolumeSaveController : MonoBehaviour'
+        VB: >-
+          Public Class VolumeSaveController
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.VolumeSaveController.ON
+      commentId: F:Global.VolumeSaveController.ON
+      language: CSharp
+      name:
+        CSharp: ON
+        VB: ON
+      nameWithType:
+        CSharp: VolumeSaveController.ON
+        VB: VolumeSaveController.ON
+      qualifiedName:
+        CSharp: VolumeSaveController.ON
+        VB: VolumeSaveController.ON
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: ON
+        path: ''
+        startLine: 779
+      syntax:
+        content:
+          CSharp: public GameObject ON
+          VB: Public ON As GameObject
+        return:
+          type: Global.GameObject
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.VolumeSaveController.OFF
+      commentId: F:Global.VolumeSaveController.OFF
+      language: CSharp
+      name:
+        CSharp: OFF
+        VB: OFF
+      nameWithType:
+        CSharp: VolumeSaveController.OFF
+        VB: VolumeSaveController.OFF
+      qualifiedName:
+        CSharp: VolumeSaveController.OFF
+        VB: VolumeSaveController.OFF
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: OFF
+        path: ''
+        startLine: 780
+      syntax:
+        content:
+          CSharp: public GameObject OFF
+          VB: Public OFF As GameObject
+        return:
+          type: Global.GameObject
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.VolumeSaveController.volumeSlider(System.Single)
+      commentId: M:Global.VolumeSaveController.volumeSlider(System.Single)
+      language: CSharp
+      name:
+        CSharp: volumeSlider(Single)
+        VB: volumeSlider(Single)
+      nameWithType:
+        CSharp: VolumeSaveController.volumeSlider(Single)
+        VB: VolumeSaveController.volumeSlider(Single)
+      qualifiedName:
+        CSharp: VolumeSaveController.volumeSlider(System.Single)
+        VB: VolumeSaveController.volumeSlider(System.Single)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: volumeSlider
+        path: ''
+        startLine: 788
+      syntax:
+        content:
+          CSharp: public void volumeSlider(float volume)
+          VB: Public Sub volumeSlider(volume As Single)
+        parameters:
+        - id: volume
+          type: System.Single
+      overload: Global.VolumeSaveController.volumeSlider*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.VolumeSaveController.SaveVolumeButton
+      commentId: M:Global.VolumeSaveController.SaveVolumeButton
+      language: CSharp
+      name:
+        CSharp: SaveVolumeButton()
+        VB: SaveVolumeButton()
+      nameWithType:
+        CSharp: VolumeSaveController.SaveVolumeButton()
+        VB: VolumeSaveController.SaveVolumeButton()
+      qualifiedName:
+        CSharp: VolumeSaveController.SaveVolumeButton()
+        VB: VolumeSaveController.SaveVolumeButton()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: SaveVolumeButton
+        path: ''
+        startLine: 793
+      syntax:
+        content:
+          CSharp: public void SaveVolumeButton()
+          VB: Public Sub SaveVolumeButton
+      overload: Global.VolumeSaveController.SaveVolumeButton*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.VolumeSaveController.ToggleHudButton
+      commentId: M:Global.VolumeSaveController.ToggleHudButton
+      language: CSharp
+      name:
+        CSharp: ToggleHudButton()
+        VB: ToggleHudButton()
+      nameWithType:
+        CSharp: VolumeSaveController.ToggleHudButton()
+        VB: VolumeSaveController.ToggleHudButton()
+      qualifiedName:
+        CSharp: VolumeSaveController.ToggleHudButton()
+        VB: VolumeSaveController.ToggleHudButton()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: ToggleHudButton
+        path: ''
+        startLine: 800
+      syntax:
+        content:
+          CSharp: public void ToggleHudButton()
+          VB: Public Sub ToggleHudButton
+      overload: Global.VolumeSaveController.ToggleHudButton*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.LookCamera
+    commentId: T:Global.LookCamera
+    language: CSharp
+    name:
+      CSharp: LookCamera
+      VB: LookCamera
+    nameWithType:
+      CSharp: LookCamera
+      VB: LookCamera
+    qualifiedName:
+      CSharp: LookCamera
+      VB: LookCamera
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: LookCamera
+      path: ''
+      startLine: 828
+    syntax:
+      content:
+        CSharp: 'public class LookCamera : MonoBehaviour'
+        VB: >-
+          Public Class LookCamera
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.LookCamera.speedNormal
+      commentId: F:Global.LookCamera.speedNormal
+      language: CSharp
+      name:
+        CSharp: speedNormal
+        VB: speedNormal
+      nameWithType:
+        CSharp: LookCamera.speedNormal
+        VB: LookCamera.speedNormal
+      qualifiedName:
+        CSharp: LookCamera.speedNormal
+        VB: LookCamera.speedNormal
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: speedNormal
+        path: ''
+        startLine: 830
+      syntax:
+        content:
+          CSharp: public float speedNormal
+          VB: Public speedNormal As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.LookCamera.speedFast
+      commentId: F:Global.LookCamera.speedFast
+      language: CSharp
+      name:
+        CSharp: speedFast
+        VB: speedFast
+      nameWithType:
+        CSharp: LookCamera.speedFast
+        VB: LookCamera.speedFast
+      qualifiedName:
+        CSharp: LookCamera.speedFast
+        VB: LookCamera.speedFast
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: speedFast
+        path: ''
+        startLine: 831
+      syntax:
+        content:
+          CSharp: public float speedFast
+          VB: Public speedFast As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.LookCamera.mouseSensitivityX
+      commentId: F:Global.LookCamera.mouseSensitivityX
+      language: CSharp
+      name:
+        CSharp: mouseSensitivityX
+        VB: mouseSensitivityX
+      nameWithType:
+        CSharp: LookCamera.mouseSensitivityX
+        VB: LookCamera.mouseSensitivityX
+      qualifiedName:
+        CSharp: LookCamera.mouseSensitivityX
+        VB: LookCamera.mouseSensitivityX
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: mouseSensitivityX
+        path: ''
+        startLine: 833
+      syntax:
+        content:
+          CSharp: public float mouseSensitivityX
+          VB: Public mouseSensitivityX As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.LookCamera.mouseSensitivityY
+      commentId: F:Global.LookCamera.mouseSensitivityY
+      language: CSharp
+      name:
+        CSharp: mouseSensitivityY
+        VB: mouseSensitivityY
+      nameWithType:
+        CSharp: LookCamera.mouseSensitivityY
+        VB: LookCamera.mouseSensitivityY
+      qualifiedName:
+        CSharp: LookCamera.mouseSensitivityY
+        VB: LookCamera.mouseSensitivityY
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: mouseSensitivityY
+        path: ''
+        startLine: 834
+      syntax:
+        content:
+          CSharp: public float mouseSensitivityY
+          VB: Public mouseSensitivityY As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Single:
+    name:
+      CSharp:
+      - id: System.Single
+        name: Single
+        nameWithType: Single
+        qualifiedName: System.Single
+        isExternal: true
+      VB:
+      - id: System.Single
+        name: Single
+        nameWithType: Single
+        qualifiedName: System.Single
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Single
+  System.Boolean:
+    name:
+      CSharp:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      VB:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Boolean
+  Global.CheckGround:
+    name:
+      CSharp:
+      - id: Global.CheckGround
+        name: CheckGround
+        nameWithType: CheckGround
+        qualifiedName: CheckGround
+      VB:
+      - id: Global.CheckGround
+        name: CheckGround
+        nameWithType: CheckGround
+        qualifiedName: CheckGround
+    isDefinition: true
+    commentId: T:Global.CheckGround
+  Global.Coin:
+    name:
+      CSharp:
+      - id: Global.Coin
+        name: Coin
+        nameWithType: Coin
+        qualifiedName: Coin
+      VB:
+      - id: Global.Coin
+        name: Coin
+        nameWithType: Coin
+        qualifiedName: Coin
+    isDefinition: true
+    commentId: T:Global.Coin
+  Global.TextMeshProUGUI:
+    name:
+      CSharp:
+      - id: Global.TextMeshProUGUI
+        name: TextMeshProUGUI
+        nameWithType: TextMeshProUGUI
+        qualifiedName: TextMeshProUGUI
+        isExternal: true
+      VB:
+      - id: Global.TextMeshProUGUI
+        name: TextMeshProUGUI
+        nameWithType: TextMeshProUGUI
+        qualifiedName: TextMeshProUGUI
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.TextMeshProUGUI'
+  Global.Collider:
+    name:
+      CSharp:
+      - id: Global.Collider
+        name: Collider
+        nameWithType: Collider
+        qualifiedName: Collider
+        isExternal: true
+      VB:
+      - id: Global.Collider
+        name: Collider
+        nameWithType: Collider
+        qualifiedName: Collider
+        isExternal: true
+    isDefinition: true
+  Global.CoinCounter.OnTriggerEnter*:
+    name:
+      CSharp:
+      - id: Global.CoinCounter.OnTriggerEnter*
+        name: OnTriggerEnter
+        nameWithType: CoinCounter.OnTriggerEnter
+        qualifiedName: CoinCounter.OnTriggerEnter
+      VB:
+      - id: Global.CoinCounter.OnTriggerEnter*
+        name: OnTriggerEnter
+        nameWithType: CoinCounter.OnTriggerEnter
+        qualifiedName: CoinCounter.OnTriggerEnter
+    isDefinition: true
+    commentId: Overload:Global.CoinCounter.OnTriggerEnter
+  Global.CoinCounter:
+    name:
+      CSharp:
+      - id: Global.CoinCounter
+        name: CoinCounter
+        nameWithType: CoinCounter
+        qualifiedName: CoinCounter
+      VB:
+      - id: Global.CoinCounter
+        name: CoinCounter
+        nameWithType: CoinCounter
+        qualifiedName: CoinCounter
+    isDefinition: true
+    commentId: T:Global.CoinCounter
+  Global.GameObject:
+    name:
+      CSharp:
+      - id: Global.GameObject
+        name: GameObject
+        nameWithType: GameObject
+        qualifiedName: GameObject
+        isExternal: true
+      VB:
+      - id: Global.GameObject
+        name: GameObject
+        nameWithType: GameObject
+        qualifiedName: GameObject
+        isExternal: true
+    isDefinition: true
+  Global.COL:
+    name:
+      CSharp:
+      - id: Global.COL
+        name: COL
+        nameWithType: COL
+        qualifiedName: COL
+      VB:
+      - id: Global.COL
+        name: COL
+        nameWithType: COL
+        qualifiedName: COL
+    isDefinition: true
+    commentId: T:Global.COL
+  Global.DeadTouch:
+    name:
+      CSharp:
+      - id: Global.DeadTouch
+        name: DeadTouch
+        nameWithType: DeadTouch
+        qualifiedName: DeadTouch
+      VB:
+      - id: Global.DeadTouch
+        name: DeadTouch
+        nameWithType: DeadTouch
+        qualifiedName: DeadTouch
+    isDefinition: true
+    commentId: T:Global.DeadTouch
+  Global.Events.LoadStore*:
+    name:
+      CSharp:
+      - id: Global.Events.LoadStore*
+        name: LoadStore
+        nameWithType: Events.LoadStore
+        qualifiedName: Events.LoadStore
+      VB:
+      - id: Global.Events.LoadStore*
+        name: LoadStore
+        nameWithType: Events.LoadStore
+        qualifiedName: Events.LoadStore
+    isDefinition: true
+    commentId: Overload:Global.Events.LoadStore
+  Global.Events.ReplayGame*:
+    name:
+      CSharp:
+      - id: Global.Events.ReplayGame*
+        name: ReplayGame
+        nameWithType: Events.ReplayGame
+        qualifiedName: Events.ReplayGame
+      VB:
+      - id: Global.Events.ReplayGame*
+        name: ReplayGame
+        nameWithType: Events.ReplayGame
+        qualifiedName: Events.ReplayGame
+    isDefinition: true
+    commentId: Overload:Global.Events.ReplayGame
+  Global.Events.QuitGame*:
+    name:
+      CSharp:
+      - id: Global.Events.QuitGame*
+        name: QuitGame
+        nameWithType: Events.QuitGame
+        qualifiedName: Events.QuitGame
+      VB:
+      - id: Global.Events.QuitGame*
+        name: QuitGame
+        nameWithType: Events.QuitGame
+        qualifiedName: Events.QuitGame
+    isDefinition: true
+    commentId: Overload:Global.Events.QuitGame
+  Global.Events.ReplayLvlOne*:
+    name:
+      CSharp:
+      - id: Global.Events.ReplayLvlOne*
+        name: ReplayLvlOne
+        nameWithType: Events.ReplayLvlOne
+        qualifiedName: Events.ReplayLvlOne
+      VB:
+      - id: Global.Events.ReplayLvlOne*
+        name: ReplayLvlOne
+        nameWithType: Events.ReplayLvlOne
+        qualifiedName: Events.ReplayLvlOne
+    isDefinition: true
+    commentId: Overload:Global.Events.ReplayLvlOne
+  Global.Events.ReplayLvlTwo*:
+    name:
+      CSharp:
+      - id: Global.Events.ReplayLvlTwo*
+        name: ReplayLvlTwo
+        nameWithType: Events.ReplayLvlTwo
+        qualifiedName: Events.ReplayLvlTwo
+      VB:
+      - id: Global.Events.ReplayLvlTwo*
+        name: ReplayLvlTwo
+        nameWithType: Events.ReplayLvlTwo
+        qualifiedName: Events.ReplayLvlTwo
+    isDefinition: true
+    commentId: Overload:Global.Events.ReplayLvlTwo
+  Global.Events.ReplayLvlThree*:
+    name:
+      CSharp:
+      - id: Global.Events.ReplayLvlThree*
+        name: ReplayLvlThree
+        nameWithType: Events.ReplayLvlThree
+        qualifiedName: Events.ReplayLvlThree
+      VB:
+      - id: Global.Events.ReplayLvlThree*
+        name: ReplayLvlThree
+        nameWithType: Events.ReplayLvlThree
+        qualifiedName: Events.ReplayLvlThree
+    isDefinition: true
+    commentId: Overload:Global.Events.ReplayLvlThree
+  Global.Events.ReplayLvlfour*:
+    name:
+      CSharp:
+      - id: Global.Events.ReplayLvlfour*
+        name: ReplayLvlfour
+        nameWithType: Events.ReplayLvlfour
+        qualifiedName: Events.ReplayLvlfour
+      VB:
+      - id: Global.Events.ReplayLvlfour*
+        name: ReplayLvlfour
+        nameWithType: Events.ReplayLvlfour
+        qualifiedName: Events.ReplayLvlfour
+    isDefinition: true
+    commentId: Overload:Global.Events.ReplayLvlfour
+  Global.Events.ReplayLvlfive*:
+    name:
+      CSharp:
+      - id: Global.Events.ReplayLvlfive*
+        name: ReplayLvlfive
+        nameWithType: Events.ReplayLvlfive
+        qualifiedName: Events.ReplayLvlfive
+      VB:
+      - id: Global.Events.ReplayLvlfive*
+        name: ReplayLvlfive
+        nameWithType: Events.ReplayLvlfive
+        qualifiedName: Events.ReplayLvlfive
+    isDefinition: true
+    commentId: Overload:Global.Events.ReplayLvlfive
+  Global.Events:
+    name:
+      CSharp:
+      - id: Global.Events
+        name: Events
+        nameWithType: Events
+        qualifiedName: Events
+      VB:
+      - id: Global.Events
+        name: Events
+        nameWithType: Events
+        qualifiedName: Events
+    isDefinition: true
+    commentId: T:Global.Events
+  Global.Finish.OnTriggerEnter*:
+    name:
+      CSharp:
+      - id: Global.Finish.OnTriggerEnter*
+        name: OnTriggerEnter
+        nameWithType: Finish.OnTriggerEnter
+        qualifiedName: Finish.OnTriggerEnter
+      VB:
+      - id: Global.Finish.OnTriggerEnter*
+        name: OnTriggerEnter
+        nameWithType: Finish.OnTriggerEnter
+        qualifiedName: Finish.OnTriggerEnter
+    isDefinition: true
+    commentId: Overload:Global.Finish.OnTriggerEnter
+  Global.Finish.OnTriggerExit*:
+    name:
+      CSharp:
+      - id: Global.Finish.OnTriggerExit*
+        name: OnTriggerExit
+        nameWithType: Finish.OnTriggerExit
+        qualifiedName: Finish.OnTriggerExit
+      VB:
+      - id: Global.Finish.OnTriggerExit*
+        name: OnTriggerExit
+        nameWithType: Finish.OnTriggerExit
+        qualifiedName: Finish.OnTriggerExit
+    isDefinition: true
+    commentId: Overload:Global.Finish.OnTriggerExit
+  Global.Finish:
+    name:
+      CSharp:
+      - id: Global.Finish
+        name: Finish
+        nameWithType: Finish
+        qualifiedName: Finish
+      VB:
+      - id: Global.Finish
+        name: Finish
+        nameWithType: Finish
+        qualifiedName: Finish
+    isDefinition: true
+    commentId: T:Global.Finish
+  Global.Text:
+    name:
+      CSharp:
+      - id: Global.Text
+        name: Text
+        nameWithType: Text
+        qualifiedName: Text
+        isExternal: true
+      VB:
+      - id: Global.Text
+        name: Text
+        nameWithType: Text
+        qualifiedName: Text
+        isExternal: true
+    isDefinition: true
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  Global.GameControl.gotoShop*:
+    name:
+      CSharp:
+      - id: Global.GameControl.gotoShop*
+        name: gotoShop
+        nameWithType: GameControl.gotoShop
+        qualifiedName: GameControl.gotoShop
+      VB:
+      - id: Global.GameControl.gotoShop*
+        name: gotoShop
+        nameWithType: GameControl.gotoShop
+        qualifiedName: GameControl.gotoShop
+    isDefinition: true
+    commentId: Overload:Global.GameControl.gotoShop
+  Global.GameControl:
+    name:
+      CSharp:
+      - id: Global.GameControl
+        name: GameControl
+        nameWithType: GameControl
+        qualifiedName: GameControl
+      VB:
+      - id: Global.GameControl
+        name: GameControl
+        nameWithType: GameControl
+        qualifiedName: GameControl
+    isDefinition: true
+    commentId: T:Global.GameControl
+  Global.GameManager.EndGame*:
+    name:
+      CSharp:
+      - id: Global.GameManager.EndGame*
+        name: EndGame
+        nameWithType: GameManager.EndGame
+        qualifiedName: GameManager.EndGame
+      VB:
+      - id: Global.GameManager.EndGame*
+        name: EndGame
+        nameWithType: GameManager.EndGame
+        qualifiedName: GameManager.EndGame
+    isDefinition: true
+    commentId: Overload:Global.GameManager.EndGame
+  Global.GameManager:
+    name:
+      CSharp:
+      - id: Global.GameManager
+        name: GameManager
+        nameWithType: GameManager
+        qualifiedName: GameManager
+      VB:
+      - id: Global.GameManager
+        name: GameManager
+        nameWithType: GameManager
+        qualifiedName: GameManager
+    isDefinition: true
+    commentId: T:Global.GameManager
+  Global.HUD.hudDisable*:
+    name:
+      CSharp:
+      - id: Global.HUD.hudDisable*
+        name: hudDisable
+        nameWithType: HUD.hudDisable
+        qualifiedName: HUD.hudDisable
+      VB:
+      - id: Global.HUD.hudDisable*
+        name: hudDisable
+        nameWithType: HUD.hudDisable
+        qualifiedName: HUD.hudDisable
+    isDefinition: true
+    commentId: Overload:Global.HUD.hudDisable
+  Global.HUD:
+    name:
+      CSharp:
+      - id: Global.HUD
+        name: HUD
+        nameWithType: HUD
+        qualifiedName: HUD
+      VB:
+      - id: Global.HUD
+        name: HUD
+        nameWithType: HUD
+        qualifiedName: HUD
+    isDefinition: true
+    commentId: T:Global.HUD
+  Global.LevelGenerator:
+    name:
+      CSharp:
+      - id: Global.LevelGenerator
+        name: LevelGenerator
+        nameWithType: LevelGenerator
+        qualifiedName: LevelGenerator
+      VB:
+      - id: Global.LevelGenerator
+        name: LevelGenerator
+        nameWithType: LevelGenerator
+        qualifiedName: LevelGenerator
+    isDefinition: true
+    commentId: T:Global.LevelGenerator
+  Global.MainMenu.PlayGame*:
+    name:
+      CSharp:
+      - id: Global.MainMenu.PlayGame*
+        name: PlayGame
+        nameWithType: MainMenu.PlayGame
+        qualifiedName: MainMenu.PlayGame
+      VB:
+      - id: Global.MainMenu.PlayGame*
+        name: PlayGame
+        nameWithType: MainMenu.PlayGame
+        qualifiedName: MainMenu.PlayGame
+    isDefinition: true
+    commentId: Overload:Global.MainMenu.PlayGame
+  Global.MainMenu.QuitGame*:
+    name:
+      CSharp:
+      - id: Global.MainMenu.QuitGame*
+        name: QuitGame
+        nameWithType: MainMenu.QuitGame
+        qualifiedName: MainMenu.QuitGame
+      VB:
+      - id: Global.MainMenu.QuitGame*
+        name: QuitGame
+        nameWithType: MainMenu.QuitGame
+        qualifiedName: MainMenu.QuitGame
+    isDefinition: true
+    commentId: Overload:Global.MainMenu.QuitGame
+  Global.MainMenu.LoadCredits*:
+    name:
+      CSharp:
+      - id: Global.MainMenu.LoadCredits*
+        name: LoadCredits
+        nameWithType: MainMenu.LoadCredits
+        qualifiedName: MainMenu.LoadCredits
+      VB:
+      - id: Global.MainMenu.LoadCredits*
+        name: LoadCredits
+        nameWithType: MainMenu.LoadCredits
+        qualifiedName: MainMenu.LoadCredits
+    isDefinition: true
+    commentId: Overload:Global.MainMenu.LoadCredits
+  Global.MainMenu.LoadOptions*:
+    name:
+      CSharp:
+      - id: Global.MainMenu.LoadOptions*
+        name: LoadOptions
+        nameWithType: MainMenu.LoadOptions
+        qualifiedName: MainMenu.LoadOptions
+      VB:
+      - id: Global.MainMenu.LoadOptions*
+        name: LoadOptions
+        nameWithType: MainMenu.LoadOptions
+        qualifiedName: MainMenu.LoadOptions
+    isDefinition: true
+    commentId: Overload:Global.MainMenu.LoadOptions
+  Global.MainMenu.LoadLevel*:
+    name:
+      CSharp:
+      - id: Global.MainMenu.LoadLevel*
+        name: LoadLevel
+        nameWithType: MainMenu.LoadLevel
+        qualifiedName: MainMenu.LoadLevel
+      VB:
+      - id: Global.MainMenu.LoadLevel*
+        name: LoadLevel
+        nameWithType: MainMenu.LoadLevel
+        qualifiedName: MainMenu.LoadLevel
+    isDefinition: true
+    commentId: Overload:Global.MainMenu.LoadLevel
+  Global.MainMenu.Level1*:
+    name:
+      CSharp:
+      - id: Global.MainMenu.Level1*
+        name: Level1
+        nameWithType: MainMenu.Level1
+        qualifiedName: MainMenu.Level1
+      VB:
+      - id: Global.MainMenu.Level1*
+        name: Level1
+        nameWithType: MainMenu.Level1
+        qualifiedName: MainMenu.Level1
+    isDefinition: true
+    commentId: Overload:Global.MainMenu.Level1
+  Global.MainMenu.Level2*:
+    name:
+      CSharp:
+      - id: Global.MainMenu.Level2*
+        name: Level2
+        nameWithType: MainMenu.Level2
+        qualifiedName: MainMenu.Level2
+      VB:
+      - id: Global.MainMenu.Level2*
+        name: Level2
+        nameWithType: MainMenu.Level2
+        qualifiedName: MainMenu.Level2
+    isDefinition: true
+    commentId: Overload:Global.MainMenu.Level2
+  Global.MainMenu.Level3*:
+    name:
+      CSharp:
+      - id: Global.MainMenu.Level3*
+        name: Level3
+        nameWithType: MainMenu.Level3
+        qualifiedName: MainMenu.Level3
+      VB:
+      - id: Global.MainMenu.Level3*
+        name: Level3
+        nameWithType: MainMenu.Level3
+        qualifiedName: MainMenu.Level3
+    isDefinition: true
+    commentId: Overload:Global.MainMenu.Level3
+  Global.MainMenu.Level4*:
+    name:
+      CSharp:
+      - id: Global.MainMenu.Level4*
+        name: Level4
+        nameWithType: MainMenu.Level4
+        qualifiedName: MainMenu.Level4
+      VB:
+      - id: Global.MainMenu.Level4*
+        name: Level4
+        nameWithType: MainMenu.Level4
+        qualifiedName: MainMenu.Level4
+    isDefinition: true
+    commentId: Overload:Global.MainMenu.Level4
+  Global.MainMenu.Level5*:
+    name:
+      CSharp:
+      - id: Global.MainMenu.Level5*
+        name: Level5
+        nameWithType: MainMenu.Level5
+        qualifiedName: MainMenu.Level5
+      VB:
+      - id: Global.MainMenu.Level5*
+        name: Level5
+        nameWithType: MainMenu.Level5
+        qualifiedName: MainMenu.Level5
+    isDefinition: true
+    commentId: Overload:Global.MainMenu.Level5
+  Global.MainMenu:
+    name:
+      CSharp:
+      - id: Global.MainMenu
+        name: MainMenu
+        nameWithType: MainMenu
+        qualifiedName: MainMenu
+      VB:
+      - id: Global.MainMenu
+        name: MainMenu
+        nameWithType: MainMenu
+        qualifiedName: MainMenu
+    isDefinition: true
+    commentId: T:Global.MainMenu
+  Global.Pause.OpenPanel*:
+    name:
+      CSharp:
+      - id: Global.Pause.OpenPanel*
+        name: OpenPanel
+        nameWithType: Pause.OpenPanel
+        qualifiedName: Pause.OpenPanel
+      VB:
+      - id: Global.Pause.OpenPanel*
+        name: OpenPanel
+        nameWithType: Pause.OpenPanel
+        qualifiedName: Pause.OpenPanel
+    isDefinition: true
+    commentId: Overload:Global.Pause.OpenPanel
+  Global.Pause.PauseThisGame*:
+    name:
+      CSharp:
+      - id: Global.Pause.PauseThisGame*
+        name: PauseThisGame
+        nameWithType: Pause.PauseThisGame
+        qualifiedName: Pause.PauseThisGame
+      VB:
+      - id: Global.Pause.PauseThisGame*
+        name: PauseThisGame
+        nameWithType: Pause.PauseThisGame
+        qualifiedName: Pause.PauseThisGame
+    isDefinition: true
+    commentId: Overload:Global.Pause.PauseThisGame
+  Global.Pause.ResumeGame*:
+    name:
+      CSharp:
+      - id: Global.Pause.ResumeGame*
+        name: ResumeGame
+        nameWithType: Pause.ResumeGame
+        qualifiedName: Pause.ResumeGame
+      VB:
+      - id: Global.Pause.ResumeGame*
+        name: ResumeGame
+        nameWithType: Pause.ResumeGame
+        qualifiedName: Pause.ResumeGame
+    isDefinition: true
+    commentId: Overload:Global.Pause.ResumeGame
+  Global.Pause:
+    name:
+      CSharp:
+      - id: Global.Pause
+        name: Pause
+        nameWithType: Pause
+        qualifiedName: Pause
+      VB:
+      - id: Global.Pause
+        name: Pause
+        nameWithType: Pause
+        qualifiedName: Pause
+    isDefinition: true
+    commentId: T:Global.Pause
+  Global.Rigidbody:
+    name:
+      CSharp:
+      - id: Global.Rigidbody
+        name: Rigidbody
+        nameWithType: Rigidbody
+        qualifiedName: Rigidbody
+        isExternal: true
+      VB:
+      - id: Global.Rigidbody
+        name: Rigidbody
+        nameWithType: Rigidbody
+        qualifiedName: Rigidbody
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.Rigidbody'
+  Global.PlayerControls.OnJump*:
+    name:
+      CSharp:
+      - id: Global.PlayerControls.OnJump*
+        name: OnJump
+        nameWithType: PlayerControls.OnJump
+        qualifiedName: PlayerControls.OnJump
+      VB:
+      - id: Global.PlayerControls.OnJump*
+        name: OnJump
+        nameWithType: PlayerControls.OnJump
+        qualifiedName: PlayerControls.OnJump
+    isDefinition: true
+    commentId: Overload:Global.PlayerControls.OnJump
+  Global.PlayerControls.Slide*:
+    name:
+      CSharp:
+      - id: Global.PlayerControls.Slide*
+        name: Slide
+        nameWithType: PlayerControls.Slide
+        qualifiedName: PlayerControls.Slide
+      VB:
+      - id: Global.PlayerControls.Slide*
+        name: Slide
+        nameWithType: PlayerControls.Slide
+        qualifiedName: PlayerControls.Slide
+    isDefinition: true
+    commentId: Overload:Global.PlayerControls.Slide
+  Global.PlayerControls.GoingUp*:
+    name:
+      CSharp:
+      - id: Global.PlayerControls.GoingUp*
+        name: GoingUp
+        nameWithType: PlayerControls.GoingUp
+        qualifiedName: PlayerControls.GoingUp
+      VB:
+      - id: Global.PlayerControls.GoingUp*
+        name: GoingUp
+        nameWithType: PlayerControls.GoingUp
+        qualifiedName: PlayerControls.GoingUp
+    isDefinition: true
+    commentId: Overload:Global.PlayerControls.GoingUp
+  Global.PlayerControls:
+    name:
+      CSharp:
+      - id: Global.PlayerControls
+        name: PlayerControls
+        nameWithType: PlayerControls
+        qualifiedName: PlayerControls
+      VB:
+      - id: Global.PlayerControls
+        name: PlayerControls
+        nameWithType: PlayerControls
+        qualifiedName: PlayerControls
+    isDefinition: true
+    commentId: T:Global.PlayerControls
+  Global.Button:
+    name:
+      CSharp:
+      - id: Global.Button
+        name: Button
+        nameWithType: Button
+        qualifiedName: Button
+        isExternal: true
+      VB:
+      - id: Global.Button
+        name: Button
+        nameWithType: Button
+        qualifiedName: Button
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.Button'
+  Global.ShopControl.buyNinja*:
+    name:
+      CSharp:
+      - id: Global.ShopControl.buyNinja*
+        name: buyNinja
+        nameWithType: ShopControl.buyNinja
+        qualifiedName: ShopControl.buyNinja
+      VB:
+      - id: Global.ShopControl.buyNinja*
+        name: buyNinja
+        nameWithType: ShopControl.buyNinja
+        qualifiedName: ShopControl.buyNinja
+    isDefinition: true
+    commentId: Overload:Global.ShopControl.buyNinja
+  Global.ShopControl.exitShop*:
+    name:
+      CSharp:
+      - id: Global.ShopControl.exitShop*
+        name: exitShop
+        nameWithType: ShopControl.exitShop
+        qualifiedName: ShopControl.exitShop
+      VB:
+      - id: Global.ShopControl.exitShop*
+        name: exitShop
+        nameWithType: ShopControl.exitShop
+        qualifiedName: ShopControl.exitShop
+    isDefinition: true
+    commentId: Overload:Global.ShopControl.exitShop
+  Global.ShopControl.resetPlayerPrefs*:
+    name:
+      CSharp:
+      - id: Global.ShopControl.resetPlayerPrefs*
+        name: resetPlayerPrefs
+        nameWithType: ShopControl.resetPlayerPrefs
+        qualifiedName: ShopControl.resetPlayerPrefs
+      VB:
+      - id: Global.ShopControl.resetPlayerPrefs*
+        name: resetPlayerPrefs
+        nameWithType: ShopControl.resetPlayerPrefs
+        qualifiedName: ShopControl.resetPlayerPrefs
+    isDefinition: true
+    commentId: Overload:Global.ShopControl.resetPlayerPrefs
+  Global.ShopControl:
+    name:
+      CSharp:
+      - id: Global.ShopControl
+        name: ShopControl
+        nameWithType: ShopControl
+        qualifiedName: ShopControl
+      VB:
+      - id: Global.ShopControl
+        name: ShopControl
+        nameWithType: ShopControl
+        qualifiedName: ShopControl
+    isDefinition: true
+    commentId: T:Global.ShopControl
+  Global.GameObject[]:
+    name:
+      CSharp:
+      - id: Global.GameObject
+        name: GameObject
+        nameWithType: GameObject
+        qualifiedName: GameObject
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      VB:
+      - id: Global.GameObject
+        name: GameObject
+        nameWithType: GameObject
+        qualifiedName: GameObject
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+    isDefinition: false
+  Global.Vector3:
+    name:
+      CSharp:
+      - id: Global.Vector3
+        name: Vector3
+        nameWithType: Vector3
+        qualifiedName: Vector3
+        isExternal: true
+      VB:
+      - id: Global.Vector3
+        name: Vector3
+        nameWithType: Vector3
+        qualifiedName: Vector3
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.Vector3'
+  Global.Transform:
+    name:
+      CSharp:
+      - id: Global.Transform
+        name: Transform
+        nameWithType: Transform
+        qualifiedName: Transform
+        isExternal: true
+      VB:
+      - id: Global.Transform
+        name: Transform
+        nameWithType: Transform
+        qualifiedName: Transform
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.Transform'
+  Global.SpawnScript:
+    name:
+      CSharp:
+      - id: Global.SpawnScript
+        name: SpawnScript
+        nameWithType: SpawnScript
+        qualifiedName: SpawnScript
+      VB:
+      - id: Global.SpawnScript
+        name: SpawnScript
+        nameWithType: SpawnScript
+        qualifiedName: SpawnScript
+    isDefinition: true
+    commentId: T:Global.SpawnScript
+  Global.TimerScript.Finnish*:
+    name:
+      CSharp:
+      - id: Global.TimerScript.Finnish*
+        name: Finnish
+        nameWithType: TimerScript.Finnish
+        qualifiedName: TimerScript.Finnish
+      VB:
+      - id: Global.TimerScript.Finnish*
+        name: Finnish
+        nameWithType: TimerScript.Finnish
+        qualifiedName: TimerScript.Finnish
+    isDefinition: true
+    commentId: Overload:Global.TimerScript.Finnish
+  Global.TimerScript:
+    name:
+      CSharp:
+      - id: Global.TimerScript
+        name: TimerScript
+        nameWithType: TimerScript
+        qualifiedName: TimerScript
+      VB:
+      - id: Global.TimerScript
+        name: TimerScript
+        nameWithType: TimerScript
+        qualifiedName: TimerScript
+    isDefinition: true
+    commentId: T:Global.TimerScript
+  Global.Touch.MakePlayerJump*:
+    name:
+      CSharp:
+      - id: Global.Touch.MakePlayerJump*
+        name: MakePlayerJump
+        nameWithType: Touch.MakePlayerJump
+        qualifiedName: Touch.MakePlayerJump
+      VB:
+      - id: Global.Touch.MakePlayerJump*
+        name: MakePlayerJump
+        nameWithType: Touch.MakePlayerJump
+        qualifiedName: Touch.MakePlayerJump
+    isDefinition: true
+    commentId: Overload:Global.Touch.MakePlayerJump
+  Global.Touch:
+    name:
+      CSharp:
+      - id: Global.Touch
+        name: Touch
+        nameWithType: Touch
+        qualifiedName: Touch
+      VB:
+      - id: Global.Touch
+        name: Touch
+        nameWithType: Touch
+        qualifiedName: Touch
+    isDefinition: true
+    commentId: T:Global.Touch
+  Global.VolumeSaveController.volumeSlider*:
+    name:
+      CSharp:
+      - id: Global.VolumeSaveController.volumeSlider*
+        name: volumeSlider
+        nameWithType: VolumeSaveController.volumeSlider
+        qualifiedName: VolumeSaveController.volumeSlider
+      VB:
+      - id: Global.VolumeSaveController.volumeSlider*
+        name: volumeSlider
+        nameWithType: VolumeSaveController.volumeSlider
+        qualifiedName: VolumeSaveController.volumeSlider
+    isDefinition: true
+    commentId: Overload:Global.VolumeSaveController.volumeSlider
+  Global.VolumeSaveController.SaveVolumeButton*:
+    name:
+      CSharp:
+      - id: Global.VolumeSaveController.SaveVolumeButton*
+        name: SaveVolumeButton
+        nameWithType: VolumeSaveController.SaveVolumeButton
+        qualifiedName: VolumeSaveController.SaveVolumeButton
+      VB:
+      - id: Global.VolumeSaveController.SaveVolumeButton*
+        name: SaveVolumeButton
+        nameWithType: VolumeSaveController.SaveVolumeButton
+        qualifiedName: VolumeSaveController.SaveVolumeButton
+    isDefinition: true
+    commentId: Overload:Global.VolumeSaveController.SaveVolumeButton
+  Global.VolumeSaveController.ToggleHudButton*:
+    name:
+      CSharp:
+      - id: Global.VolumeSaveController.ToggleHudButton*
+        name: ToggleHudButton
+        nameWithType: VolumeSaveController.ToggleHudButton
+        qualifiedName: VolumeSaveController.ToggleHudButton
+      VB:
+      - id: Global.VolumeSaveController.ToggleHudButton*
+        name: ToggleHudButton
+        nameWithType: VolumeSaveController.ToggleHudButton
+        qualifiedName: VolumeSaveController.ToggleHudButton
+    isDefinition: true
+    commentId: Overload:Global.VolumeSaveController.ToggleHudButton
+  Global.VolumeSaveController:
+    name:
+      CSharp:
+      - id: Global.VolumeSaveController
+        name: VolumeSaveController
+        nameWithType: VolumeSaveController
+        qualifiedName: VolumeSaveController
+      VB:
+      - id: Global.VolumeSaveController
+        name: VolumeSaveController
+        nameWithType: VolumeSaveController
+        qualifiedName: VolumeSaveController
+    isDefinition: true
+    commentId: T:Global.VolumeSaveController
+  Global.LookCamera:
+    name:
+      CSharp:
+      - id: Global.LookCamera
+        name: LookCamera
+        nameWithType: LookCamera
+        qualifiedName: LookCamera
+      VB:
+      - id: Global.LookCamera
+        name: LookCamera
+        nameWithType: LookCamera
+        qualifiedName: LookCamera
+    isDefinition: true
+    commentId: T:Global.LookCamera
+  Global:
+    name:
+      CSharp:
+      - name: Global
+        nameWithType: Global
+        qualifiedName: Global
+      VB:
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+    isDefinition: true

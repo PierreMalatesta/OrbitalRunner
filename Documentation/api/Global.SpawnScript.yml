@@ -1,0 +1,268 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SpawnScript
+  commentId: T:Global.SpawnScript
+  id: SpawnScript
+  parent: Global
+  children:
+  - Global.SpawnScript.maxPlatforms
+  - Global.SpawnScript.obj
+  - Global.SpawnScript.player
+  - Global.SpawnScript.pos
+  - Global.SpawnScript.size
+  - Global.SpawnScript.spawnInterval
+  langs:
+  - csharp
+  - vb
+  name: SpawnScript
+  nameWithType: SpawnScript
+  fullName: SpawnScript
+  type: Class
+  source:
+    id: SpawnScript
+    path: ''
+    startLine: 658
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SpawnScript : MonoBehaviour'
+    content.vb: >-
+      Public Class SpawnScript
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SpawnScript.obj
+  commentId: F:Global.SpawnScript.obj
+  id: obj
+  parent: Global.SpawnScript
+  langs:
+  - csharp
+  - vb
+  name: obj
+  nameWithType: SpawnScript.obj
+  fullName: SpawnScript.obj
+  type: Field
+  source:
+    id: obj
+    path: ''
+    startLine: 660
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject[] obj
+    return:
+      type: Global.GameObject[]
+    content.vb: Public obj As GameObject()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SpawnScript.spawnInterval
+  commentId: F:Global.SpawnScript.spawnInterval
+  id: spawnInterval
+  parent: Global.SpawnScript
+  langs:
+  - csharp
+  - vb
+  name: spawnInterval
+  nameWithType: SpawnScript.spawnInterval
+  fullName: SpawnScript.spawnInterval
+  type: Field
+  source:
+    id: spawnInterval
+    path: ''
+    startLine: 661
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float spawnInterval
+    return:
+      type: System.Single
+    content.vb: Public spawnInterval As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SpawnScript.pos
+  commentId: F:Global.SpawnScript.pos
+  id: pos
+  parent: Global.SpawnScript
+  langs:
+  - csharp
+  - vb
+  name: pos
+  nameWithType: SpawnScript.pos
+  fullName: SpawnScript.pos
+  type: Field
+  source:
+    id: pos
+    path: ''
+    startLine: 662
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector3 pos
+    return:
+      type: Global.Vector3
+    content.vb: Public pos As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SpawnScript.size
+  commentId: F:Global.SpawnScript.size
+  id: size
+  parent: Global.SpawnScript
+  langs:
+  - csharp
+  - vb
+  name: size
+  nameWithType: SpawnScript.size
+  fullName: SpawnScript.size
+  type: Field
+  source:
+    id: size
+    path: ''
+    startLine: 663
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float size
+    return:
+      type: System.Single
+    content.vb: Public size As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SpawnScript.maxPlatforms
+  commentId: F:Global.SpawnScript.maxPlatforms
+  id: maxPlatforms
+  parent: Global.SpawnScript
+  langs:
+  - csharp
+  - vb
+  name: maxPlatforms
+  nameWithType: SpawnScript.maxPlatforms
+  fullName: SpawnScript.maxPlatforms
+  type: Field
+  source:
+    id: maxPlatforms
+    path: ''
+    startLine: 667
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int maxPlatforms
+    return:
+      type: System.Int32
+    content.vb: Public maxPlatforms As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SpawnScript.player
+  commentId: F:Global.SpawnScript.player
+  id: player
+  parent: Global.SpawnScript
+  langs:
+  - csharp
+  - vb
+  name: player
+  nameWithType: SpawnScript.player
+  fullName: SpawnScript.player
+  type: Field
+  source:
+    id: player
+    path: ''
+    startLine: 669
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Transform player
+    return:
+      type: Global.Transform
+    content.vb: Public player As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.GameObject[]
+  isExternal: true
+  name: GameObject[]
+  nameWithType: GameObject[]
+  fullName: GameObject[]
+  nameWithType.vb: GameObject()
+  fullName.vb: GameObject()
+  name.vb: GameObject()
+  spec.csharp:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Vector3
+  commentId: '!:Global.Vector3'
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Transform
+  commentId: '!:Global.Transform'
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform

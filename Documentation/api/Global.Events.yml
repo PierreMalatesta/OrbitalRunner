@@ -1,0 +1,298 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Events
+  commentId: T:Global.Events
+  id: Events
+  parent: Global
+  children:
+  - Global.Events.LoadStore
+  - Global.Events.QuitGame
+  - Global.Events.ReplayGame
+  - Global.Events.ReplayLvlfive
+  - Global.Events.ReplayLvlfour
+  - Global.Events.ReplayLvlOne
+  - Global.Events.ReplayLvlThree
+  - Global.Events.ReplayLvlTwo
+  langs:
+  - csharp
+  - vb
+  name: Events
+  nameWithType: Events
+  fullName: Events
+  type: Class
+  source:
+    id: Events
+    path: ''
+    startLine: 122
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Events : MonoBehaviour'
+    content.vb: >-
+      Public Class Events
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Events.LoadStore
+  commentId: M:Global.Events.LoadStore
+  id: LoadStore
+  parent: Global.Events
+  langs:
+  - csharp
+  - vb
+  name: LoadStore()
+  nameWithType: Events.LoadStore()
+  fullName: Events.LoadStore()
+  type: Method
+  source:
+    id: LoadStore
+    path: ''
+    startLine: 124
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoadStore()
+    content.vb: Public Sub LoadStore
+  overload: Global.Events.LoadStore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Events.ReplayGame
+  commentId: M:Global.Events.ReplayGame
+  id: ReplayGame
+  parent: Global.Events
+  langs:
+  - csharp
+  - vb
+  name: ReplayGame()
+  nameWithType: Events.ReplayGame()
+  fullName: Events.ReplayGame()
+  type: Method
+  source:
+    id: ReplayGame
+    path: ''
+    startLine: 129
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ReplayGame()
+    content.vb: Public Sub ReplayGame
+  overload: Global.Events.ReplayGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Events.QuitGame
+  commentId: M:Global.Events.QuitGame
+  id: QuitGame
+  parent: Global.Events
+  langs:
+  - csharp
+  - vb
+  name: QuitGame()
+  nameWithType: Events.QuitGame()
+  fullName: Events.QuitGame()
+  type: Method
+  source:
+    id: QuitGame
+    path: ''
+    startLine: 134
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void QuitGame()
+    content.vb: Public Sub QuitGame
+  overload: Global.Events.QuitGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Events.ReplayLvlOne
+  commentId: M:Global.Events.ReplayLvlOne
+  id: ReplayLvlOne
+  parent: Global.Events
+  langs:
+  - csharp
+  - vb
+  name: ReplayLvlOne()
+  nameWithType: Events.ReplayLvlOne()
+  fullName: Events.ReplayLvlOne()
+  type: Method
+  source:
+    id: ReplayLvlOne
+    path: ''
+    startLine: 139
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ReplayLvlOne()
+    content.vb: Public Sub ReplayLvlOne
+  overload: Global.Events.ReplayLvlOne*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Events.ReplayLvlTwo
+  commentId: M:Global.Events.ReplayLvlTwo
+  id: ReplayLvlTwo
+  parent: Global.Events
+  langs:
+  - csharp
+  - vb
+  name: ReplayLvlTwo()
+  nameWithType: Events.ReplayLvlTwo()
+  fullName: Events.ReplayLvlTwo()
+  type: Method
+  source:
+    id: ReplayLvlTwo
+    path: ''
+    startLine: 145
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ReplayLvlTwo()
+    content.vb: Public Sub ReplayLvlTwo
+  overload: Global.Events.ReplayLvlTwo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Events.ReplayLvlThree
+  commentId: M:Global.Events.ReplayLvlThree
+  id: ReplayLvlThree
+  parent: Global.Events
+  langs:
+  - csharp
+  - vb
+  name: ReplayLvlThree()
+  nameWithType: Events.ReplayLvlThree()
+  fullName: Events.ReplayLvlThree()
+  type: Method
+  source:
+    id: ReplayLvlThree
+    path: ''
+    startLine: 151
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ReplayLvlThree()
+    content.vb: Public Sub ReplayLvlThree
+  overload: Global.Events.ReplayLvlThree*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Events.ReplayLvlfour
+  commentId: M:Global.Events.ReplayLvlfour
+  id: ReplayLvlfour
+  parent: Global.Events
+  langs:
+  - csharp
+  - vb
+  name: ReplayLvlfour()
+  nameWithType: Events.ReplayLvlfour()
+  fullName: Events.ReplayLvlfour()
+  type: Method
+  source:
+    id: ReplayLvlfour
+    path: ''
+    startLine: 157
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ReplayLvlfour()
+    content.vb: Public Sub ReplayLvlfour
+  overload: Global.Events.ReplayLvlfour*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Events.ReplayLvlfive
+  commentId: M:Global.Events.ReplayLvlfive
+  id: ReplayLvlfive
+  parent: Global.Events
+  langs:
+  - csharp
+  - vb
+  name: ReplayLvlfive()
+  nameWithType: Events.ReplayLvlfive()
+  fullName: Events.ReplayLvlfive()
+  type: Method
+  source:
+    id: ReplayLvlfive
+    path: ''
+    startLine: 162
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ReplayLvlfive()
+    content.vb: Public Sub ReplayLvlfive
+  overload: Global.Events.ReplayLvlfive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Events.LoadStore*
+  commentId: Overload:Global.Events.LoadStore
+  name: LoadStore
+  nameWithType: Events.LoadStore
+  fullName: Events.LoadStore
+- uid: Global.Events.ReplayGame*
+  commentId: Overload:Global.Events.ReplayGame
+  name: ReplayGame
+  nameWithType: Events.ReplayGame
+  fullName: Events.ReplayGame
+- uid: Global.Events.QuitGame*
+  commentId: Overload:Global.Events.QuitGame
+  name: QuitGame
+  nameWithType: Events.QuitGame
+  fullName: Events.QuitGame
+- uid: Global.Events.ReplayLvlOne*
+  commentId: Overload:Global.Events.ReplayLvlOne
+  name: ReplayLvlOne
+  nameWithType: Events.ReplayLvlOne
+  fullName: Events.ReplayLvlOne
+- uid: Global.Events.ReplayLvlTwo*
+  commentId: Overload:Global.Events.ReplayLvlTwo
+  name: ReplayLvlTwo
+  nameWithType: Events.ReplayLvlTwo
+  fullName: Events.ReplayLvlTwo
+- uid: Global.Events.ReplayLvlThree*
+  commentId: Overload:Global.Events.ReplayLvlThree
+  name: ReplayLvlThree
+  nameWithType: Events.ReplayLvlThree
+  fullName: Events.ReplayLvlThree
+- uid: Global.Events.ReplayLvlfour*
+  commentId: Overload:Global.Events.ReplayLvlfour
+  name: ReplayLvlfour
+  nameWithType: Events.ReplayLvlfour
+  fullName: Events.ReplayLvlfour
+- uid: Global.Events.ReplayLvlfive*
+  commentId: Overload:Global.Events.ReplayLvlfive
+  name: ReplayLvlfive
+  nameWithType: Events.ReplayLvlfive
+  fullName: Events.ReplayLvlfive

@@ -33,6 +33,10 @@ public class ShopControl : MonoBehaviour
             buyButton.interactable = false;
     }
 
+    /// <summary>
+    /// This function is use to buy the ninja gameObject, takes away 10 coins and disables the buy button.
+    /// </summary>
+
     public void buyNinja()
     {
         moneyAmount -= 10;

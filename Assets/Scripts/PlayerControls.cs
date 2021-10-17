@@ -61,7 +61,12 @@ public class PlayerControls : MonoBehaviour
        
     }
 
-    // Update is called once per frame
+
+    
+      /// <summary>
+      /// Plays jump and slide animations when appropriate buttons are clicked.
+      /// </summary>      
+    
     void FixedUpdate()
     {
 

@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CoinCounter
+  commentId: T:Global.CoinCounter
+  id: CoinCounter
+  parent: Global
+  children:
+  - Global.CoinCounter.OnTriggerEnter(Collider)
+  - Global.CoinCounter.TextCoins
+  langs:
+  - csharp
+  - vb
+  name: CoinCounter
+  nameWithType: CoinCounter
+  fullName: CoinCounter
+  type: Class
+  source:
+    id: CoinCounter
+    path: ''
+    startLine: 58
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class CoinCounter : MonoBehaviour'
+    content.vb: >-
+      Public Class CoinCounter
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CoinCounter.TextCoins
+  commentId: F:Global.CoinCounter.TextCoins
+  id: TextCoins
+  parent: Global.CoinCounter
+  langs:
+  - csharp
+  - vb
+  name: TextCoins
+  nameWithType: CoinCounter.TextCoins
+  fullName: CoinCounter.TextCoins
+  type: Field
+  source:
+    id: TextCoins
+    path: ''
+    startLine: 62
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI TextCoins
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public TextCoins As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CoinCounter.OnTriggerEnter(Collider)
+  commentId: M:Global.CoinCounter.OnTriggerEnter(Collider)
+  id: OnTriggerEnter(Collider)
+  parent: Global.CoinCounter
+  langs:
+  - csharp
+  - vb
+  name: OnTriggerEnter(Collider)
+  nameWithType: CoinCounter.OnTriggerEnter(Collider)
+  fullName: CoinCounter.OnTriggerEnter(Collider)
+  type: Method
+  source:
+    id: OnTriggerEnter
+    path: ''
+    startLine: 64
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnTriggerEnter(Collider other)
+    parameters:
+    - id: other
+      type: Global.Collider
+    content.vb: Public Sub OnTriggerEnter(other As Collider)
+  overload: Global.CoinCounter.OnTriggerEnter*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.TextMeshProUGUI
+  commentId: '!:Global.TextMeshProUGUI'
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.CoinCounter.OnTriggerEnter*
+  commentId: Overload:Global.CoinCounter.OnTriggerEnter
+  name: OnTriggerEnter
+  nameWithType: CoinCounter.OnTriggerEnter
+  fullName: CoinCounter.OnTriggerEnter
+- uid: Global.Collider
+  isExternal: true
+  name: Collider
+  nameWithType: Collider
+  fullName: Collider

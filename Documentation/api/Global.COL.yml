@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.COL
+  commentId: T:Global.COL
+  id: COL
+  parent: Global
+  children:
+  - Global.COL.Prefab
+  - Global.COL.timer
+  langs:
+  - csharp
+  - vb
+  name: COL
+  nameWithType: COL
+  fullName: COL
+  type: Class
+  source:
+    id: COL
+    path: ''
+    startLine: 78
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class COL : MonoBehaviour'
+    content.vb: >-
+      Public Class COL
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.COL.Prefab
+  commentId: F:Global.COL.Prefab
+  id: Prefab
+  parent: Global.COL
+  langs:
+  - csharp
+  - vb
+  name: Prefab
+  nameWithType: COL.Prefab
+  fullName: COL.Prefab
+  type: Field
+  source:
+    id: Prefab
+    path: ''
+    startLine: 80
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject Prefab
+    return:
+      type: Global.GameObject
+    content.vb: Public Prefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.COL.timer
+  commentId: F:Global.COL.timer
+  id: timer
+  parent: Global.COL
+  langs:
+  - csharp
+  - vb
+  name: timer
+  nameWithType: COL.timer
+  fullName: COL.timer
+  type: Field
+  source:
+    id: timer
+    path: ''
+    startLine: 82
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float timer
+    return:
+      type: System.Single
+    content.vb: Public timer As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

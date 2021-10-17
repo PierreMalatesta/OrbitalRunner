@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Finish
+  commentId: T:Global.Finish
+  id: Finish
+  parent: Global
+  children:
+  - Global.Finish.FinishPanel
+  - Global.Finish.OnTriggerEnter(Collider)
+  - Global.Finish.OnTriggerExit(Collider)
+  langs:
+  - csharp
+  - vb
+  name: Finish
+  nameWithType: Finish
+  fullName: Finish
+  type: Class
+  source:
+    id: Finish
+    path: ''
+    startLine: 173
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Finish : MonoBehaviour'
+    content.vb: >-
+      Public Class Finish
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Finish.FinishPanel
+  commentId: F:Global.Finish.FinishPanel
+  id: FinishPanel
+  parent: Global.Finish
+  langs:
+  - csharp
+  - vb
+  name: FinishPanel
+  nameWithType: Finish.FinishPanel
+  fullName: Finish.FinishPanel
+  type: Field
+  source:
+    id: FinishPanel
+    path: ''
+    startLine: 175
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject FinishPanel
+    return:
+      type: Global.GameObject
+    content.vb: Public FinishPanel As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Finish.OnTriggerEnter(Collider)
+  commentId: M:Global.Finish.OnTriggerEnter(Collider)
+  id: OnTriggerEnter(Collider)
+  parent: Global.Finish
+  langs:
+  - csharp
+  - vb
+  name: OnTriggerEnter(Collider)
+  nameWithType: Finish.OnTriggerEnter(Collider)
+  fullName: Finish.OnTriggerEnter(Collider)
+  type: Method
+  source:
+    id: OnTriggerEnter
+    path: ''
+    startLine: 177
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnTriggerEnter(Collider other)
+    parameters:
+    - id: other
+      type: Global.Collider
+    content.vb: Public Sub OnTriggerEnter(other As Collider)
+  overload: Global.Finish.OnTriggerEnter*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Finish.OnTriggerExit(Collider)
+  commentId: M:Global.Finish.OnTriggerExit(Collider)
+  id: OnTriggerExit(Collider)
+  parent: Global.Finish
+  langs:
+  - csharp
+  - vb
+  name: OnTriggerExit(Collider)
+  nameWithType: Finish.OnTriggerExit(Collider)
+  fullName: Finish.OnTriggerExit(Collider)
+  type: Method
+  source:
+    id: OnTriggerExit
+    path: ''
+    startLine: 186
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnTriggerExit(Collider other)
+    parameters:
+    - id: other
+      type: Global.Collider
+    content.vb: Public Sub OnTriggerExit(other As Collider)
+  overload: Global.Finish.OnTriggerExit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Finish.OnTriggerEnter*
+  commentId: Overload:Global.Finish.OnTriggerEnter
+  name: OnTriggerEnter
+  nameWithType: Finish.OnTriggerEnter
+  fullName: Finish.OnTriggerEnter
+- uid: Global.Collider
+  isExternal: true
+  name: Collider
+  nameWithType: Collider
+  fullName: Collider
+- uid: Global.Finish.OnTriggerExit*
+  commentId: Overload:Global.Finish.OnTriggerExit
+  name: OnTriggerExit
+  nameWithType: Finish.OnTriggerExit
+  fullName: Finish.OnTriggerExit

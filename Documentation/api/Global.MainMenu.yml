@@ -1,0 +1,362 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MainMenu
+  commentId: T:Global.MainMenu
+  id: MainMenu
+  parent: Global
+  children:
+  - Global.MainMenu.Level1
+  - Global.MainMenu.Level2
+  - Global.MainMenu.Level3
+  - Global.MainMenu.Level4
+  - Global.MainMenu.Level5
+  - Global.MainMenu.LoadCredits
+  - Global.MainMenu.LoadLevel
+  - Global.MainMenu.LoadOptions
+  - Global.MainMenu.PlayGame
+  - Global.MainMenu.QuitGame
+  langs:
+  - csharp
+  - vb
+  name: MainMenu
+  nameWithType: MainMenu
+  fullName: MainMenu
+  type: Class
+  source:
+    id: MainMenu
+    path: ''
+    startLine: 354
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MainMenu : MonoBehaviour'
+    content.vb: >-
+      Public Class MainMenu
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MainMenu.PlayGame
+  commentId: M:Global.MainMenu.PlayGame
+  id: PlayGame
+  parent: Global.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: PlayGame()
+  nameWithType: MainMenu.PlayGame()
+  fullName: MainMenu.PlayGame()
+  type: Method
+  source:
+    id: PlayGame
+    path: ''
+    startLine: 356
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PlayGame()
+    content.vb: Public Sub PlayGame
+  overload: Global.MainMenu.PlayGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MainMenu.QuitGame
+  commentId: M:Global.MainMenu.QuitGame
+  id: QuitGame
+  parent: Global.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: QuitGame()
+  nameWithType: MainMenu.QuitGame()
+  fullName: MainMenu.QuitGame()
+  type: Method
+  source:
+    id: QuitGame
+    path: ''
+    startLine: 361
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void QuitGame()
+    content.vb: Public Sub QuitGame
+  overload: Global.MainMenu.QuitGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MainMenu.LoadCredits
+  commentId: M:Global.MainMenu.LoadCredits
+  id: LoadCredits
+  parent: Global.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: LoadCredits()
+  nameWithType: MainMenu.LoadCredits()
+  fullName: MainMenu.LoadCredits()
+  type: Method
+  source:
+    id: LoadCredits
+    path: ''
+    startLine: 366
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoadCredits()
+    content.vb: Public Sub LoadCredits
+  overload: Global.MainMenu.LoadCredits*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MainMenu.LoadOptions
+  commentId: M:Global.MainMenu.LoadOptions
+  id: LoadOptions
+  parent: Global.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: LoadOptions()
+  nameWithType: MainMenu.LoadOptions()
+  fullName: MainMenu.LoadOptions()
+  type: Method
+  source:
+    id: LoadOptions
+    path: ''
+    startLine: 371
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoadOptions()
+    content.vb: Public Sub LoadOptions
+  overload: Global.MainMenu.LoadOptions*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MainMenu.LoadLevel
+  commentId: M:Global.MainMenu.LoadLevel
+  id: LoadLevel
+  parent: Global.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: LoadLevel()
+  nameWithType: MainMenu.LoadLevel()
+  fullName: MainMenu.LoadLevel()
+  type: Method
+  source:
+    id: LoadLevel
+    path: ''
+    startLine: 376
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoadLevel()
+    content.vb: Public Sub LoadLevel
+  overload: Global.MainMenu.LoadLevel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MainMenu.Level1
+  commentId: M:Global.MainMenu.Level1
+  id: Level1
+  parent: Global.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: Level1()
+  nameWithType: MainMenu.Level1()
+  fullName: MainMenu.Level1()
+  type: Method
+  source:
+    id: Level1
+    path: ''
+    startLine: 382
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Level1()
+    content.vb: Public Sub Level1
+  overload: Global.MainMenu.Level1*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MainMenu.Level2
+  commentId: M:Global.MainMenu.Level2
+  id: Level2
+  parent: Global.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: Level2()
+  nameWithType: MainMenu.Level2()
+  fullName: MainMenu.Level2()
+  type: Method
+  source:
+    id: Level2
+    path: ''
+    startLine: 386
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Level2()
+    content.vb: Public Sub Level2
+  overload: Global.MainMenu.Level2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MainMenu.Level3
+  commentId: M:Global.MainMenu.Level3
+  id: Level3
+  parent: Global.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: Level3()
+  nameWithType: MainMenu.Level3()
+  fullName: MainMenu.Level3()
+  type: Method
+  source:
+    id: Level3
+    path: ''
+    startLine: 391
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Level3()
+    content.vb: Public Sub Level3
+  overload: Global.MainMenu.Level3*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MainMenu.Level4
+  commentId: M:Global.MainMenu.Level4
+  id: Level4
+  parent: Global.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: Level4()
+  nameWithType: MainMenu.Level4()
+  fullName: MainMenu.Level4()
+  type: Method
+  source:
+    id: Level4
+    path: ''
+    startLine: 396
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Level4()
+    content.vb: Public Sub Level4
+  overload: Global.MainMenu.Level4*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MainMenu.Level5
+  commentId: M:Global.MainMenu.Level5
+  id: Level5
+  parent: Global.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: Level5()
+  nameWithType: MainMenu.Level5()
+  fullName: MainMenu.Level5()
+  type: Method
+  source:
+    id: Level5
+    path: ''
+    startLine: 401
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Level5()
+    content.vb: Public Sub Level5
+  overload: Global.MainMenu.Level5*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.MainMenu.PlayGame*
+  commentId: Overload:Global.MainMenu.PlayGame
+  name: PlayGame
+  nameWithType: MainMenu.PlayGame
+  fullName: MainMenu.PlayGame
+- uid: Global.MainMenu.QuitGame*
+  commentId: Overload:Global.MainMenu.QuitGame
+  name: QuitGame
+  nameWithType: MainMenu.QuitGame
+  fullName: MainMenu.QuitGame
+- uid: Global.MainMenu.LoadCredits*
+  commentId: Overload:Global.MainMenu.LoadCredits
+  name: LoadCredits
+  nameWithType: MainMenu.LoadCredits
+  fullName: MainMenu.LoadCredits
+- uid: Global.MainMenu.LoadOptions*
+  commentId: Overload:Global.MainMenu.LoadOptions
+  name: LoadOptions
+  nameWithType: MainMenu.LoadOptions
+  fullName: MainMenu.LoadOptions
+- uid: Global.MainMenu.LoadLevel*
+  commentId: Overload:Global.MainMenu.LoadLevel
+  name: LoadLevel
+  nameWithType: MainMenu.LoadLevel
+  fullName: MainMenu.LoadLevel
+- uid: Global.MainMenu.Level1*
+  commentId: Overload:Global.MainMenu.Level1
+  name: Level1
+  nameWithType: MainMenu.Level1
+  fullName: MainMenu.Level1
+- uid: Global.MainMenu.Level2*
+  commentId: Overload:Global.MainMenu.Level2
+  name: Level2
+  nameWithType: MainMenu.Level2
+  fullName: MainMenu.Level2
+- uid: Global.MainMenu.Level3*
+  commentId: Overload:Global.MainMenu.Level3
+  name: Level3
+  nameWithType: MainMenu.Level3
+  fullName: MainMenu.Level3
+- uid: Global.MainMenu.Level4*
+  commentId: Overload:Global.MainMenu.Level4
+  name: Level4
+  nameWithType: MainMenu.Level4
+  fullName: MainMenu.Level4
+- uid: Global.MainMenu.Level5*
+  commentId: Overload:Global.MainMenu.Level5
+  name: Level5
+  nameWithType: MainMenu.Level5
+  fullName: MainMenu.Level5

@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.LookCamera
+  commentId: T:Global.LookCamera
+  id: LookCamera
+  parent: Global
+  children:
+  - Global.LookCamera.mouseSensitivityX
+  - Global.LookCamera.mouseSensitivityY
+  - Global.LookCamera.speedFast
+  - Global.LookCamera.speedNormal
+  langs:
+  - csharp
+  - vb
+  name: LookCamera
+  nameWithType: LookCamera
+  fullName: LookCamera
+  type: Class
+  source:
+    id: LookCamera
+    path: ''
+    startLine: 828
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class LookCamera : MonoBehaviour'
+    content.vb: >-
+      Public Class LookCamera
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.LookCamera.speedNormal
+  commentId: F:Global.LookCamera.speedNormal
+  id: speedNormal
+  parent: Global.LookCamera
+  langs:
+  - csharp
+  - vb
+  name: speedNormal
+  nameWithType: LookCamera.speedNormal
+  fullName: LookCamera.speedNormal
+  type: Field
+  source:
+    id: speedNormal
+    path: ''
+    startLine: 830
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float speedNormal
+    return:
+      type: System.Single
+    content.vb: Public speedNormal As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LookCamera.speedFast
+  commentId: F:Global.LookCamera.speedFast
+  id: speedFast
+  parent: Global.LookCamera
+  langs:
+  - csharp
+  - vb
+  name: speedFast
+  nameWithType: LookCamera.speedFast
+  fullName: LookCamera.speedFast
+  type: Field
+  source:
+    id: speedFast
+    path: ''
+    startLine: 831
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float speedFast
+    return:
+      type: System.Single
+    content.vb: Public speedFast As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LookCamera.mouseSensitivityX
+  commentId: F:Global.LookCamera.mouseSensitivityX
+  id: mouseSensitivityX
+  parent: Global.LookCamera
+  langs:
+  - csharp
+  - vb
+  name: mouseSensitivityX
+  nameWithType: LookCamera.mouseSensitivityX
+  fullName: LookCamera.mouseSensitivityX
+  type: Field
+  source:
+    id: mouseSensitivityX
+    path: ''
+    startLine: 833
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float mouseSensitivityX
+    return:
+      type: System.Single
+    content.vb: Public mouseSensitivityX As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LookCamera.mouseSensitivityY
+  commentId: F:Global.LookCamera.mouseSensitivityY
+  id: mouseSensitivityY
+  parent: Global.LookCamera
+  langs:
+  - csharp
+  - vb
+  name: mouseSensitivityY
+  nameWithType: LookCamera.mouseSensitivityY
+  fullName: LookCamera.mouseSensitivityY
+  type: Field
+  source:
+    id: mouseSensitivityY
+    path: ''
+    startLine: 834
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float mouseSensitivityY
+    return:
+      type: System.Single
+    content.vb: Public mouseSensitivityY As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

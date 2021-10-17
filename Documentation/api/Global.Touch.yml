@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Touch
+  commentId: T:Global.Touch
+  id: Touch
+  parent: Global
+  children:
+  - Global.Touch.MakePlayerJump
+  - Global.Touch.player
+  langs:
+  - csharp
+  - vb
+  name: Touch
+  nameWithType: Touch
+  fullName: Touch
+  type: Class
+  source:
+    id: Touch
+    path: ''
+    startLine: 749
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Touch : MonoBehaviour'
+    content.vb: >-
+      Public Class Touch
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Touch.player
+  commentId: F:Global.Touch.player
+  id: player
+  parent: Global.Touch
+  langs:
+  - csharp
+  - vb
+  name: player
+  nameWithType: Touch.player
+  fullName: Touch.player
+  type: Field
+  source:
+    id: player
+    path: ''
+    startLine: 751
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public PlayerControls player
+    return:
+      type: Global.PlayerControls
+    content.vb: Public player As PlayerControls
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Touch.MakePlayerJump
+  commentId: M:Global.Touch.MakePlayerJump
+  id: MakePlayerJump
+  parent: Global.Touch
+  langs:
+  - csharp
+  - vb
+  name: MakePlayerJump()
+  nameWithType: Touch.MakePlayerJump()
+  fullName: Touch.MakePlayerJump()
+  type: Method
+  source:
+    id: MakePlayerJump
+    path: ''
+    startLine: 760
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void MakePlayerJump()
+    content.vb: Public Sub MakePlayerJump
+  overload: Global.Touch.MakePlayerJump*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.PlayerControls
+  commentId: T:Global.PlayerControls
+  name: PlayerControls
+  nameWithType: PlayerControls
+  fullName: PlayerControls
+- uid: Global.Touch.MakePlayerJump*
+  commentId: Overload:Global.Touch.MakePlayerJump
+  name: MakePlayerJump
+  nameWithType: Touch.MakePlayerJump
+  fullName: Touch.MakePlayerJump

@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GameControl
+  commentId: T:Global.GameControl
+  id: GameControl
+  parent: Global
+  children:
+  - Global.GameControl.FirstPlayer
+  - Global.GameControl.gotoShop
+  - Global.GameControl.moneyAmount
+  - Global.GameControl.moneyText
+  - Global.GameControl.Ninja
+  - Global.GameControl.SecondJump
+  - Global.GameControl.SecondSlide
+  langs:
+  - csharp
+  - vb
+  name: GameControl
+  nameWithType: GameControl
+  fullName: GameControl
+  type: Class
+  source:
+    id: GameControl
+    path: ''
+    startLine: 201
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class GameControl : MonoBehaviour'
+    content.vb: >-
+      Public Class GameControl
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.GameControl.moneyText
+  commentId: F:Global.GameControl.moneyText
+  id: moneyText
+  parent: Global.GameControl
+  langs:
+  - csharp
+  - vb
+  name: moneyText
+  nameWithType: GameControl.moneyText
+  fullName: GameControl.moneyText
+  type: Field
+  source:
+    id: moneyText
+    path: ''
+    startLine: 203
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Text moneyText
+    return:
+      type: Global.Text
+    content.vb: Public moneyText As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GameControl.moneyAmount
+  commentId: F:Global.GameControl.moneyAmount
+  id: moneyAmount
+  parent: Global.GameControl
+  langs:
+  - csharp
+  - vb
+  name: moneyAmount
+  nameWithType: GameControl.moneyAmount
+  fullName: GameControl.moneyAmount
+  type: Field
+  source:
+    id: moneyAmount
+    path: ''
+    startLine: 204
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static int moneyAmount
+    return:
+      type: System.Int32
+    content.vb: Public Shared moneyAmount As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.GameControl.Ninja
+  commentId: F:Global.GameControl.Ninja
+  id: Ninja
+  parent: Global.GameControl
+  langs:
+  - csharp
+  - vb
+  name: Ninja
+  nameWithType: GameControl.Ninja
+  fullName: GameControl.Ninja
+  type: Field
+  source:
+    id: Ninja
+    path: ''
+    startLine: 206
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject Ninja
+    return:
+      type: Global.GameObject
+    content.vb: Public Ninja As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GameControl.FirstPlayer
+  commentId: F:Global.GameControl.FirstPlayer
+  id: FirstPlayer
+  parent: Global.GameControl
+  langs:
+  - csharp
+  - vb
+  name: FirstPlayer
+  nameWithType: GameControl.FirstPlayer
+  fullName: GameControl.FirstPlayer
+  type: Field
+  source:
+    id: FirstPlayer
+    path: ''
+    startLine: 207
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject FirstPlayer
+    return:
+      type: Global.GameObject
+    content.vb: Public FirstPlayer As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GameControl.SecondJump
+  commentId: F:Global.GameControl.SecondJump
+  id: SecondJump
+  parent: Global.GameControl
+  langs:
+  - csharp
+  - vb
+  name: SecondJump
+  nameWithType: GameControl.SecondJump
+  fullName: GameControl.SecondJump
+  type: Field
+  source:
+    id: SecondJump
+    path: ''
+    startLine: 208
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject SecondJump
+    return:
+      type: Global.GameObject
+    content.vb: Public SecondJump As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GameControl.SecondSlide
+  commentId: F:Global.GameControl.SecondSlide
+  id: SecondSlide
+  parent: Global.GameControl
+  langs:
+  - csharp
+  - vb
+  name: SecondSlide
+  nameWithType: GameControl.SecondSlide
+  fullName: GameControl.SecondSlide
+  type: Field
+  source:
+    id: SecondSlide
+    path: ''
+    startLine: 209
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject SecondSlide
+    return:
+      type: Global.GameObject
+    content.vb: Public SecondSlide As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GameControl.gotoShop
+  commentId: M:Global.GameControl.gotoShop
+  id: gotoShop
+  parent: Global.GameControl
+  langs:
+  - csharp
+  - vb
+  name: gotoShop()
+  nameWithType: GameControl.gotoShop()
+  fullName: GameControl.gotoShop()
+  type: Method
+  source:
+    id: gotoShop
+    path: ''
+    startLine: 240
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void gotoShop()
+    content.vb: Public Sub gotoShop
+  overload: Global.GameControl.gotoShop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Text
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: Text
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.GameControl.gotoShop*
+  commentId: Overload:Global.GameControl.gotoShop
+  name: gotoShop
+  nameWithType: GameControl.gotoShop
+  fullName: GameControl.gotoShop

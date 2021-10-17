@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TimerScript
+  commentId: T:Global.TimerScript
+  id: TimerScript
+  parent: Global
+  children:
+  - Global.TimerScript.Finnish
+  - Global.TimerScript.TimerText
+  langs:
+  - csharp
+  - vb
+  name: TimerScript
+  nameWithType: TimerScript
+  fullName: TimerScript
+  type: Class
+  source:
+    id: TimerScript
+    path: ''
+    startLine: 707
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TimerScript : MonoBehaviour'
+    content.vb: >-
+      Public Class TimerScript
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TimerScript.TimerText
+  commentId: F:Global.TimerScript.TimerText
+  id: TimerText
+  parent: Global.TimerScript
+  langs:
+  - csharp
+  - vb
+  name: TimerText
+  nameWithType: TimerScript.TimerText
+  fullName: TimerScript.TimerText
+  type: Field
+  source:
+    id: TimerText
+    path: ''
+    startLine: 709
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Text TimerText
+    return:
+      type: Global.Text
+    content.vb: Public TimerText As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimerScript.Finnish
+  commentId: M:Global.TimerScript.Finnish
+  id: Finnish
+  parent: Global.TimerScript
+  langs:
+  - csharp
+  - vb
+  name: Finnish()
+  nameWithType: TimerScript.Finnish()
+  fullName: TimerScript.Finnish()
+  type: Method
+  source:
+    id: Finnish
+    path: ''
+    startLine: 737
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Finnish()
+    content.vb: Public Sub Finnish
+  overload: Global.TimerScript.Finnish*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Text
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: Text
+- uid: Global.TimerScript.Finnish*
+  commentId: Overload:Global.TimerScript.Finnish
+  name: Finnish
+  nameWithType: TimerScript.Finnish
+  fullName: TimerScript.Finnish

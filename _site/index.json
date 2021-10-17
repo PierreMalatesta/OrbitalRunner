@@ -1,0 +1,117 @@
+{
+  "api/Global.CheckGround.html": {
+    "href": "api/Global.CheckGround.html",
+    "title": "Class CheckGround | Orbital Runner",
+    "keywords": "Class CheckGround Inheritance Object CheckGround Namespace : Global Assembly : cs.temp.dll.dll Syntax public class CheckGround : MonoBehaviour Fields DistanceGround Declaration public float DistanceGround Field Value Type Description Single isGrounded Declaration public bool isGrounded Field Value Type Description Boolean"
+  },
+  "api/Global.Coin.html": {
+    "href": "api/Global.Coin.html",
+    "title": "Class Coin | Orbital Runner",
+    "keywords": "Class Coin Inheritance Object Coin Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Coin : MonoBehaviour"
+  },
+  "api/Global.CoinCounter.html": {
+    "href": "api/Global.CoinCounter.html",
+    "title": "Class CoinCounter | Orbital Runner",
+    "keywords": "Class CoinCounter Inheritance Object CoinCounter Namespace : Global Assembly : cs.temp.dll.dll Syntax public class CoinCounter : MonoBehaviour Fields TextCoins Declaration public TextMeshProUGUI TextCoins Field Value Type Description TextMeshProUGUI Methods OnTriggerEnter(Collider) Declaration public void OnTriggerEnter(Collider other) Parameters Type Name Description Collider other"
+  },
+  "api/Global.COL.html": {
+    "href": "api/Global.COL.html",
+    "title": "Class COL | Orbital Runner",
+    "keywords": "Class COL Inheritance Object COL Namespace : Global Assembly : cs.temp.dll.dll Syntax public class COL : MonoBehaviour Fields Prefab Declaration public GameObject Prefab Field Value Type Description GameObject timer Declaration public float timer Field Value Type Description Single"
+  },
+  "api/Global.DeadTouch.html": {
+    "href": "api/Global.DeadTouch.html",
+    "title": "Class DeadTouch | Orbital Runner",
+    "keywords": "Class DeadTouch Inheritance Object DeadTouch Namespace : Global Assembly : cs.temp.dll.dll Syntax public class DeadTouch : MonoBehaviour"
+  },
+  "api/Global.Events.html": {
+    "href": "api/Global.Events.html",
+    "title": "Class Events | Orbital Runner",
+    "keywords": "Class Events Inheritance Object Events Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Events : MonoBehaviour Methods LoadStore() Declaration public void LoadStore() QuitGame() Declaration public void QuitGame() ReplayGame() Declaration public void ReplayGame() ReplayLvlfive() Declaration public void ReplayLvlfive() ReplayLvlfour() Declaration public void ReplayLvlfour() ReplayLvlOne() Declaration public void ReplayLvlOne() ReplayLvlThree() Declaration public void ReplayLvlThree() ReplayLvlTwo() Declaration public void ReplayLvlTwo()"
+  },
+  "api/Global.Finish.html": {
+    "href": "api/Global.Finish.html",
+    "title": "Class Finish | Orbital Runner",
+    "keywords": "Class Finish Inheritance Object Finish Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Finish : MonoBehaviour Fields FinishPanel Declaration public GameObject FinishPanel Field Value Type Description GameObject Methods OnTriggerEnter(Collider) Declaration public void OnTriggerEnter(Collider other) Parameters Type Name Description Collider other OnTriggerExit(Collider) Declaration public void OnTriggerExit(Collider other) Parameters Type Name Description Collider other"
+  },
+  "api/Global.GameControl.html": {
+    "href": "api/Global.GameControl.html",
+    "title": "Class GameControl | Orbital Runner",
+    "keywords": "Class GameControl Inheritance Object GameControl Namespace : Global Assembly : cs.temp.dll.dll Syntax public class GameControl : MonoBehaviour Fields FirstPlayer Declaration public GameObject FirstPlayer Field Value Type Description GameObject moneyAmount Declaration public static int moneyAmount Field Value Type Description Int32 moneyText Declaration public Text moneyText Field Value Type Description Text Ninja Declaration public GameObject Ninja Field Value Type Description GameObject SecondJump Declaration public GameObject SecondJump Field Value Type Description GameObject SecondSlide Declaration public GameObject SecondSlide Field Value Type Description GameObject Methods gotoShop() Declaration public void gotoShop()"
+  },
+  "api/Global.GameManager.html": {
+    "href": "api/Global.GameManager.html",
+    "title": "Class GameManager | Orbital Runner",
+    "keywords": "Class GameManager Inheritance Object GameManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class GameManager : MonoBehaviour Fields restartDelay Declaration public float restartDelay Field Value Type Description Single Methods EndGame() Declaration public void EndGame()"
+  },
+  "api/Global.html": {
+    "href": "api/Global.html",
+    "title": "Namespace Global | Orbital Runner",
+    "keywords": "Namespace Global Classes CheckGround Coin CoinCounter COL DeadTouch Events Finish GameControl GameManager HUD LevelGenerator LookCamera MainMenu Pause PlayerControls ShopControl SpawnScript TimerScript Touch VolumeSaveController"
+  },
+  "api/Global.HUD.html": {
+    "href": "api/Global.HUD.html",
+    "title": "Class HUD | Orbital Runner",
+    "keywords": "Class HUD Inheritance Object HUD Namespace : Global Assembly : cs.temp.dll.dll Syntax public class HUD : MonoBehaviour Methods hudDisable() Declaration public void hudDisable()"
+  },
+  "api/Global.LevelGenerator.html": {
+    "href": "api/Global.LevelGenerator.html",
+    "title": "Class LevelGenerator | Orbital Runner",
+    "keywords": "Class LevelGenerator Inheritance Object LevelGenerator Namespace : Global Assembly : cs.temp.dll.dll Syntax public class LevelGenerator : MonoBehaviour"
+  },
+  "api/Global.LookCamera.html": {
+    "href": "api/Global.LookCamera.html",
+    "title": "Class LookCamera | Orbital Runner",
+    "keywords": "Class LookCamera Inheritance Object LookCamera Namespace : Global Assembly : cs.temp.dll.dll Syntax public class LookCamera : MonoBehaviour Fields mouseSensitivityX Declaration public float mouseSensitivityX Field Value Type Description Single mouseSensitivityY Declaration public float mouseSensitivityY Field Value Type Description Single speedFast Declaration public float speedFast Field Value Type Description Single speedNormal Declaration public float speedNormal Field Value Type Description Single"
+  },
+  "api/Global.MainMenu.html": {
+    "href": "api/Global.MainMenu.html",
+    "title": "Class MainMenu | Orbital Runner",
+    "keywords": "Class MainMenu Inheritance Object MainMenu Namespace : Global Assembly : cs.temp.dll.dll Syntax public class MainMenu : MonoBehaviour Methods Level1() Declaration public void Level1() Level2() Declaration public void Level2() Level3() Declaration public void Level3() Level4() Declaration public void Level4() Level5() Declaration public void Level5() LoadCredits() Declaration public void LoadCredits() LoadLevel() Declaration public void LoadLevel() LoadOptions() Declaration public void LoadOptions() PlayGame() Declaration public void PlayGame() QuitGame() Declaration public void QuitGame()"
+  },
+  "api/Global.Pause.html": {
+    "href": "api/Global.Pause.html",
+    "title": "Class Pause | Orbital Runner",
+    "keywords": "Class Pause Inheritance Object Pause Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Pause : MonoBehaviour Fields Panel Declaration public GameObject Panel Field Value Type Description GameObject Methods OpenPanel() Declaration public void OpenPanel() PauseThisGame() Declaration public void PauseThisGame() ResumeGame() Declaration public void ResumeGame()"
+  },
+  "api/Global.PlayerControls.html": {
+    "href": "api/Global.PlayerControls.html",
+    "title": "Class PlayerControls | Orbital Runner",
+    "keywords": "Class PlayerControls Inheritance Object PlayerControls Namespace : Global Assembly : cs.temp.dll.dll Syntax public class PlayerControls : MonoBehaviour Fields gameOverPanel Declaration public GameObject gameOverPanel Field Value Type Description GameObject isJumping Declaration public bool isJumping Field Value Type Description Boolean isSliding Declaration public bool isSliding Field Value Type Description Boolean jump Declaration public float jump Field Value Type Description Single Jump Declaration public bool Jump Field Value Type Description Boolean LandSpeed Declaration public float LandSpeed Field Value Type Description Single rb Declaration public Rigidbody rb Field Value Type Description Rigidbody reducedHeight Declaration public float reducedHeight Field Value Type Description Single slideSpeed Declaration public float slideSpeed Field Value Type Description Single SlideTimer Declaration public float SlideTimer Field Value Type Description Single Methods GoingUp() Declaration public void GoingUp() OnJump() Declaration public void OnJump() Slide() Declaration public void Slide()"
+  },
+  "api/Global.ShopControl.html": {
+    "href": "api/Global.ShopControl.html",
+    "title": "Class ShopControl | Orbital Runner",
+    "keywords": "Class ShopControl Inheritance Object ShopControl Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ShopControl : MonoBehaviour Fields buyButton Declaration public Button buyButton Field Value Type Description Button moneyAmountText Declaration public Text moneyAmountText Field Value Type Description Text ninjaPrice Declaration public Text ninjaPrice Field Value Type Description Text Methods buyNinja() Declaration public void buyNinja() exitShop() Declaration public void exitShop() resetPlayerPrefs() Declaration public void resetPlayerPrefs()"
+  },
+  "api/Global.SpawnScript.html": {
+    "href": "api/Global.SpawnScript.html",
+    "title": "Class SpawnScript | Orbital Runner",
+    "keywords": "Class SpawnScript Inheritance Object SpawnScript Namespace : Global Assembly : cs.temp.dll.dll Syntax public class SpawnScript : MonoBehaviour Fields maxPlatforms Declaration public int maxPlatforms Field Value Type Description Int32 obj Declaration public GameObject[] obj Field Value Type Description GameObject [] player Declaration public Transform player Field Value Type Description Transform pos Declaration public Vector3 pos Field Value Type Description Vector3 size Declaration public float size Field Value Type Description Single spawnInterval Declaration public float spawnInterval Field Value Type Description Single"
+  },
+  "api/Global.TimerScript.html": {
+    "href": "api/Global.TimerScript.html",
+    "title": "Class TimerScript | Orbital Runner",
+    "keywords": "Class TimerScript Inheritance Object TimerScript Namespace : Global Assembly : cs.temp.dll.dll Syntax public class TimerScript : MonoBehaviour Fields TimerText Declaration public Text TimerText Field Value Type Description Text Methods Finnish() Declaration public void Finnish()"
+  },
+  "api/Global.Touch.html": {
+    "href": "api/Global.Touch.html",
+    "title": "Class Touch | Orbital Runner",
+    "keywords": "Class Touch Inheritance Object Touch Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Touch : MonoBehaviour Fields player Declaration public PlayerControls player Field Value Type Description PlayerControls Methods MakePlayerJump() Declaration public void MakePlayerJump()"
+  },
+  "api/Global.VolumeSaveController.html": {
+    "href": "api/Global.VolumeSaveController.html",
+    "title": "Class VolumeSaveController | Orbital Runner",
+    "keywords": "Class VolumeSaveController Inheritance Object VolumeSaveController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class VolumeSaveController : MonoBehaviour Fields OFF Declaration public GameObject OFF Field Value Type Description GameObject ON Declaration public GameObject ON Field Value Type Description GameObject Methods SaveVolumeButton() Declaration public void SaveVolumeButton() ToggleHudButton() Declaration public void ToggleHudButton() volumeSlider(Single) Declaration public void volumeSlider(float volume) Parameters Type Name Description Single volume"
+  },
+  "manual/coniunctis.html": {
+    "href": "manual/coniunctis.html",
+    "title": "Coniunctis nec qui et lanient monticolae vitae | Orbital Runner",
+    "keywords": "Coniunctis nec qui et lanient monticolae vitae Opem ille Lorem markdownum cavis exululat inutile. Illi quem caeli, vola patruo difficili Iuppiter Patraeque, est ardebant ingeniis Troica intus Amore tibi mirantem superfusis, multum. Ut Achilles Et sitim Tibi modo ait temptant crinita daret Pariter in removi offensasque Lenaeo damno terra Phoebes ut damnosa classis ignes templo; tua ulla capillos ultima. Videre percusso plectro templa fuit diva minimum debere, quid nomen Philomela animis. Verbis istis flagrat vulnera inpediique ignes. Gravi filo obvius arte Amphionis Panes emisitque iubet. Latona te timens Latentia ante, eundem meritorum sunto ! Elige in timuit templa ferrea, qui arma ligati stagnum turbant. Fraternaque aeternus, dedisse, naufragus corripiens ranas Amathunta et quod laetior culpa nec semper scorpius fuit vicem corpora ardere. Fallit in artus primordia, fratres per aliis , ipsi manu Asiae quod marmorea . mountain(googleVga, pngIphone); var radcabBitrate = dnsCronRecursion; gui(2); ipImageAix += vle(drm_cisc, horizontal + computer_key); jre(vaporware_adc_multi); Lumina ut tamen praesentia vidistis nymphae auroque Bromumque in portant furorem. Visa init resurgere praevitiat canibus et, dedignata turea, ilia. Pisenore mensura insula aere nec per o gladium causa: Alcidae. Veris sentes pallet, alta melius nostra amborum probant, deam. Iuventae dedimus nitidaque hunc traxisse sermonibus pectine flecti an pateres, hac ore gelidis foret semper. Sithon pelle. Bracchia Hippason videntur fateri hosti: palpitat animo est reliquit anne nam confusaque. Interea rex altis munera quem quae quoque rorant, rauco albescere scopulo moriensque parvo, pectus illa, quadrupedes. Notavit haec. Vertit pars quem Euryte casu usta iterum! Ablatum pectus corripiunt neu humus tamquam; ducens stellarum amore. Pulsisque latet, ad tamen victor fulva Tirynthius posco; qui inque in poena quidem enses !"
+  },
+  "manual/etiam.html": {
+    "href": "manual/etiam.html",
+    "title": "Etiam nantemque exul | Orbital Runner",
+    "keywords": "Etiam nantemque exul Cum tulit Lorem markdownum quos stimulosque altos . Putat nubes molle Troiae vero dea; nostraque plurima . Vos de mihi, credidit: salibus et iacuit, volvitur sunt unda fronti deriguisse refert . Sumpsisse viso Nubila nomine. Purpura se o et causa parva ripas, adsonat saevaque; quid modo ambo et venere voveo. Sine et esse, illa tempore, sive tibi roseo, ministerio altos. Trepident medicamine, primasque cum et peregit dapibusque quoslibet hominis quoque insula. Tepentibus ut Cecropios ab turba, est auro ferventi aliter duratos feres differtis Ausoniis potes, non noctis Laertaque iuvenes. Caelumque vestigia Et promissa fila sentiet leges; Phrygiae et levatus ferire? Salutifer coniugis fierent ante fecissent post vultumque ultima, per radios currere; tandem. Fuerat qua, ne foedera reformatus nunc diu dea audet nonne. Ut utinam mitia tenuerunt movent spectans Mavortis nulla ite, somnos exsiccata dixit Aeetias. Binas Trinacriam album ex ipse. Quoque una utraque tardius placetque gerere; mariti sed dare ludunt memorante Delphice corpora. Caret quantum intellegat venis gaudent eurus. Et suos crista; has et ferarum quid audit omine; mea cum praemia quae duris, suspicor. Adflati qui Spiro conata supprimit diemque; ora oblitus ensem alti non quo lacrimis ferunt, ageret Cebrenida rutilis delendaque? Terras lata modus: nec fas, misi utque adpositis Iunonis. Fide vidit, ferox Schoeneia mundi, voce, tellus pariterque pedum, sic Celadon securior corpora partesque posito. Potest faxo unda pendulaque ille rostro, haesit pars: formidine captat, viseret simulaverat! Sequi est peragit flumineae pallent simulatas formae avulsa, imagine undis; formam. Et nec sed adeunt, huic aequa et ignes nec, medere terram. Move ipsum abnuat retemptat retinebat duabus diu Iovi est pluma. Tecum non deducit Pelops Inachus: arcet aliquemque, regia telo. Tollens altore nec semel qui voce Palatinae Apertis et dei duo inquit ; luna secundo, fervida terret. In haec dextra septima Tydides tibi: congelat hospes nativum radice tegumenque membris Hesperio ne Libys, est vocabula siqua. Dumque stet mulces , ut fontem dea atricolor, est pronos, clarissimus poterat cum intrare sidere templi. cut_metadata(whitelistSequenceUnit.thick.of_bezel_cdma( address_suffix_troubleshooting), sram_trojan(4, hdmi_network - 1)); flash.apache -= web_gps_plug; if (offline.dac_bridge(scrollEbookRom, parameter.internal_target_superscalar(2)) < qwerty + 2 - ipvCgiContextual) { certificateIdeAsp = overclocking + app; supplyCard = siteRaster; } Sagitta curvum quoque petisti opibusque proximitas in, illa vestrum, mihi domum nescia flexit sacra in. Magni vive sim crescente causam saxo voluit, mens, quod. Tela ter ulterius similis illos nato refugit ait verbaque nec fatigatum penates iaculatricemque cecidit pinnas, cum. Misso contigit caelo dedissent lumina; nympha ad vobis occidat, malo sacra utrumque cunctos Diomedeos addita. Virgineus autumnos, ait mitissima curru: fuit sed fessi se habebat hactenus Ultor; meus."
+  }
+}

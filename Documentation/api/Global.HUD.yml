@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.HUD
+  commentId: T:Global.HUD
+  id: HUD
+  parent: Global
+  children:
+  - Global.HUD.hudDisable
+  langs:
+  - csharp
+  - vb
+  name: HUD
+  nameWithType: HUD
+  fullName: HUD
+  type: Class
+  source:
+    id: HUD
+    path: ''
+    startLine: 317
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class HUD : MonoBehaviour'
+    content.vb: >-
+      Public Class HUD
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.HUD.hudDisable
+  commentId: M:Global.HUD.hudDisable
+  id: hudDisable
+  parent: Global.HUD
+  langs:
+  - csharp
+  - vb
+  name: hudDisable()
+  nameWithType: HUD.hudDisable()
+  fullName: HUD.hudDisable()
+  type: Method
+  source:
+    id: hudDisable
+    path: ''
+    startLine: 321
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void hudDisable()
+    content.vb: Public Sub hudDisable
+  overload: Global.HUD.hudDisable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.HUD.hudDisable*
+  commentId: Overload:Global.HUD.hudDisable
+  name: hudDisable
+  nameWithType: HUD.hudDisable
+  fullName: HUD.hudDisable

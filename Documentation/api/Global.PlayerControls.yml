@@ -1,0 +1,449 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PlayerControls
+  commentId: T:Global.PlayerControls
+  id: PlayerControls
+  parent: Global
+  children:
+  - Global.PlayerControls.gameOverPanel
+  - Global.PlayerControls.GoingUp
+  - Global.PlayerControls.isJumping
+  - Global.PlayerControls.isSliding
+  - Global.PlayerControls.jump
+  - Global.PlayerControls.Jump
+  - Global.PlayerControls.LandSpeed
+  - Global.PlayerControls.OnJump
+  - Global.PlayerControls.rb
+  - Global.PlayerControls.reducedHeight
+  - Global.PlayerControls.Slide
+  - Global.PlayerControls.slideSpeed
+  - Global.PlayerControls.SlideTimer
+  langs:
+  - csharp
+  - vb
+  name: PlayerControls
+  nameWithType: PlayerControls
+  fullName: PlayerControls
+  type: Class
+  source:
+    id: PlayerControls
+    path: ''
+    startLine: 454
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PlayerControls : MonoBehaviour'
+    content.vb: >-
+      Public Class PlayerControls
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PlayerControls.rb
+  commentId: F:Global.PlayerControls.rb
+  id: rb
+  parent: Global.PlayerControls
+  langs:
+  - csharp
+  - vb
+  name: rb
+  nameWithType: PlayerControls.rb
+  fullName: PlayerControls.rb
+  type: Field
+  source:
+    id: rb
+    path: ''
+    startLine: 456
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Rigidbody rb
+    return:
+      type: Global.Rigidbody
+    content.vb: Public rb As Rigidbody
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PlayerControls.jump
+  commentId: F:Global.PlayerControls.jump
+  id: jump
+  parent: Global.PlayerControls
+  langs:
+  - csharp
+  - vb
+  name: jump
+  nameWithType: PlayerControls.jump
+  fullName: PlayerControls.jump
+  type: Field
+  source:
+    id: jump
+    path: ''
+    startLine: 460
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float jump
+    return:
+      type: System.Single
+    content.vb: Public jump As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PlayerControls.isJumping
+  commentId: F:Global.PlayerControls.isJumping
+  id: isJumping
+  parent: Global.PlayerControls
+  langs:
+  - csharp
+  - vb
+  name: isJumping
+  nameWithType: PlayerControls.isJumping
+  fullName: PlayerControls.isJumping
+  type: Field
+  source:
+    id: isJumping
+    path: ''
+    startLine: 461
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool isJumping
+    return:
+      type: System.Boolean
+    content.vb: Public isJumping As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PlayerControls.Jump
+  commentId: F:Global.PlayerControls.Jump
+  id: Jump
+  parent: Global.PlayerControls
+  langs:
+  - csharp
+  - vb
+  name: Jump
+  nameWithType: PlayerControls.Jump
+  fullName: PlayerControls.Jump
+  type: Field
+  source:
+    id: Jump
+    path: ''
+    startLine: 462
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool Jump
+    return:
+      type: System.Boolean
+    content.vb: Public Jump As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PlayerControls.LandSpeed
+  commentId: F:Global.PlayerControls.LandSpeed
+  id: LandSpeed
+  parent: Global.PlayerControls
+  langs:
+  - csharp
+  - vb
+  name: LandSpeed
+  nameWithType: PlayerControls.LandSpeed
+  fullName: PlayerControls.LandSpeed
+  type: Field
+  source:
+    id: LandSpeed
+    path: ''
+    startLine: 464
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float LandSpeed
+    return:
+      type: System.Single
+    content.vb: Public LandSpeed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PlayerControls.reducedHeight
+  commentId: F:Global.PlayerControls.reducedHeight
+  id: reducedHeight
+  parent: Global.PlayerControls
+  langs:
+  - csharp
+  - vb
+  name: reducedHeight
+  nameWithType: PlayerControls.reducedHeight
+  fullName: PlayerControls.reducedHeight
+  type: Field
+  source:
+    id: reducedHeight
+    path: ''
+    startLine: 467
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float reducedHeight
+    return:
+      type: System.Single
+    content.vb: Public reducedHeight As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PlayerControls.slideSpeed
+  commentId: F:Global.PlayerControls.slideSpeed
+  id: slideSpeed
+  parent: Global.PlayerControls
+  langs:
+  - csharp
+  - vb
+  name: slideSpeed
+  nameWithType: PlayerControls.slideSpeed
+  fullName: PlayerControls.slideSpeed
+  type: Field
+  source:
+    id: slideSpeed
+    path: ''
+    startLine: 468
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float slideSpeed
+    return:
+      type: System.Single
+    content.vb: Public slideSpeed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PlayerControls.isSliding
+  commentId: F:Global.PlayerControls.isSliding
+  id: isSliding
+  parent: Global.PlayerControls
+  langs:
+  - csharp
+  - vb
+  name: isSliding
+  nameWithType: PlayerControls.isSliding
+  fullName: PlayerControls.isSliding
+  type: Field
+  source:
+    id: isSliding
+    path: ''
+    startLine: 469
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool isSliding
+    return:
+      type: System.Boolean
+    content.vb: Public isSliding As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PlayerControls.gameOverPanel
+  commentId: F:Global.PlayerControls.gameOverPanel
+  id: gameOverPanel
+  parent: Global.PlayerControls
+  langs:
+  - csharp
+  - vb
+  name: gameOverPanel
+  nameWithType: PlayerControls.gameOverPanel
+  fullName: PlayerControls.gameOverPanel
+  type: Field
+  source:
+    id: gameOverPanel
+    path: ''
+    startLine: 478
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject gameOverPanel
+    return:
+      type: Global.GameObject
+    content.vb: Public gameOverPanel As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PlayerControls.SlideTimer
+  commentId: F:Global.PlayerControls.SlideTimer
+  id: SlideTimer
+  parent: Global.PlayerControls
+  langs:
+  - csharp
+  - vb
+  name: SlideTimer
+  nameWithType: PlayerControls.SlideTimer
+  fullName: PlayerControls.SlideTimer
+  type: Field
+  source:
+    id: SlideTimer
+    path: ''
+    startLine: 480
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float SlideTimer
+    return:
+      type: System.Single
+    content.vb: Public SlideTimer As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PlayerControls.OnJump
+  commentId: M:Global.PlayerControls.OnJump
+  id: OnJump
+  parent: Global.PlayerControls
+  langs:
+  - csharp
+  - vb
+  name: OnJump()
+  nameWithType: PlayerControls.OnJump()
+  fullName: PlayerControls.OnJump()
+  type: Method
+  source:
+    id: OnJump
+    path: ''
+    startLine: 535
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnJump()
+    content.vb: Public Sub OnJump
+  overload: Global.PlayerControls.OnJump*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PlayerControls.Slide
+  commentId: M:Global.PlayerControls.Slide
+  id: Slide
+  parent: Global.PlayerControls
+  langs:
+  - csharp
+  - vb
+  name: Slide()
+  nameWithType: PlayerControls.Slide()
+  fullName: PlayerControls.Slide()
+  type: Method
+  source:
+    id: Slide
+    path: ''
+    startLine: 544
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Slide()
+    content.vb: Public Sub Slide
+  overload: Global.PlayerControls.Slide*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PlayerControls.GoingUp
+  commentId: M:Global.PlayerControls.GoingUp
+  id: GoingUp
+  parent: Global.PlayerControls
+  langs:
+  - csharp
+  - vb
+  name: GoingUp()
+  nameWithType: PlayerControls.GoingUp()
+  fullName: PlayerControls.GoingUp()
+  type: Method
+  source:
+    id: GoingUp
+    path: ''
+    startLine: 561
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GoingUp()
+    content.vb: Public Sub GoingUp
+  overload: Global.PlayerControls.GoingUp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Rigidbody
+  commentId: '!:Global.Rigidbody'
+  isExternal: true
+  name: Rigidbody
+  nameWithType: Rigidbody
+  fullName: Rigidbody
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.PlayerControls.OnJump*
+  commentId: Overload:Global.PlayerControls.OnJump
+  name: OnJump
+  nameWithType: PlayerControls.OnJump
+  fullName: PlayerControls.OnJump
+- uid: Global.PlayerControls.Slide*
+  commentId: Overload:Global.PlayerControls.Slide
+  name: Slide
+  nameWithType: PlayerControls.Slide
+  fullName: PlayerControls.Slide
+- uid: Global.PlayerControls.GoingUp*
+  commentId: Overload:Global.PlayerControls.GoingUp
+  name: GoingUp
+  nameWithType: PlayerControls.GoingUp
+  fullName: PlayerControls.GoingUp

@@ -12,6 +12,10 @@ public class LevelGenerator : MonoBehaviour
         SpawnChunk(195);
     }
 
+  /// <summary>
+  /// Spawns random prefabs
+  /// </summary>
+  /// <param name="x">'X' is always randomised</param>
     private void SpawnChunk(float x)
     {
         int index = Random.Range(0, LevelParts.Length);

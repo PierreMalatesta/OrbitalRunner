@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Pause
+  commentId: T:Global.Pause
+  id: Pause
+  parent: Global
+  children:
+  - Global.Pause.OpenPanel
+  - Global.Pause.Panel
+  - Global.Pause.PauseThisGame
+  - Global.Pause.ResumeGame
+  langs:
+  - csharp
+  - vb
+  name: Pause
+  nameWithType: Pause
+  fullName: Pause
+  type: Class
+  source:
+    id: Pause
+    path: ''
+    startLine: 412
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Pause : MonoBehaviour'
+    content.vb: >-
+      Public Class Pause
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Pause.Panel
+  commentId: F:Global.Pause.Panel
+  id: Panel
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: Panel
+  nameWithType: Pause.Panel
+  fullName: Pause.Panel
+  type: Field
+  source:
+    id: Panel
+    path: ''
+    startLine: 414
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject Panel
+    return:
+      type: Global.GameObject
+    content.vb: Public Panel As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Pause.OpenPanel
+  commentId: M:Global.Pause.OpenPanel
+  id: OpenPanel
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: OpenPanel()
+  nameWithType: Pause.OpenPanel()
+  fullName: Pause.OpenPanel()
+  type: Method
+  source:
+    id: OpenPanel
+    path: ''
+    startLine: 416
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OpenPanel()
+    content.vb: Public Sub OpenPanel
+  overload: Global.Pause.OpenPanel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Pause.PauseThisGame
+  commentId: M:Global.Pause.PauseThisGame
+  id: PauseThisGame
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: PauseThisGame()
+  nameWithType: Pause.PauseThisGame()
+  fullName: Pause.PauseThisGame()
+  type: Method
+  source:
+    id: PauseThisGame
+    path: ''
+    startLine: 425
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PauseThisGame()
+    content.vb: Public Sub PauseThisGame
+  overload: Global.Pause.PauseThisGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Pause.ResumeGame
+  commentId: M:Global.Pause.ResumeGame
+  id: ResumeGame
+  parent: Global.Pause
+  langs:
+  - csharp
+  - vb
+  name: ResumeGame()
+  nameWithType: Pause.ResumeGame()
+  fullName: Pause.ResumeGame()
+  type: Method
+  source:
+    id: ResumeGame
+    path: ''
+    startLine: 433
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ResumeGame()
+    content.vb: Public Sub ResumeGame
+  overload: Global.Pause.ResumeGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Pause.OpenPanel*
+  commentId: Overload:Global.Pause.OpenPanel
+  name: OpenPanel
+  nameWithType: Pause.OpenPanel
+  fullName: Pause.OpenPanel
+- uid: Global.Pause.PauseThisGame*
+  commentId: Overload:Global.Pause.PauseThisGame
+  name: PauseThisGame
+  nameWithType: Pause.PauseThisGame
+  fullName: Pause.PauseThisGame
+- uid: Global.Pause.ResumeGame*
+  commentId: Overload:Global.Pause.ResumeGame
+  name: ResumeGame
+  nameWithType: Pause.ResumeGame
+  fullName: Pause.ResumeGame
