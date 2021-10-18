@@ -22,10 +22,12 @@ items:
   source:
     id: GameControl
     path: ''
-    startLine: 201
+    startLine: 207
   assemblies:
   - cs.temp.dll
   namespace: Global
+  summary: "\nChecks game to see if ninja has been bought if so disables first character and enables ninja, it also disables the first pair of buttons &quot;Jump and slide&quot;. This works in with the shopControl script\n"
+  example: []
   syntax:
     content: 'public class GameControl : MonoBehaviour'
     content.vb: >-
@@ -53,7 +55,7 @@ items:
   source:
     id: moneyText
     path: ''
-    startLine: 203
+    startLine: 209
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -80,7 +82,7 @@ items:
   source:
     id: moneyAmount
     path: ''
-    startLine: 204
+    startLine: 210
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -109,7 +111,7 @@ items:
   source:
     id: Ninja
     path: ''
-    startLine: 206
+    startLine: 212
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -136,7 +138,7 @@ items:
   source:
     id: FirstPlayer
     path: ''
-    startLine: 207
+    startLine: 213
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -163,7 +165,7 @@ items:
   source:
     id: SecondJump
     path: ''
-    startLine: 208
+    startLine: 214
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -190,7 +192,7 @@ items:
   source:
     id: SecondSlide
     path: ''
-    startLine: 209
+    startLine: 215
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -217,7 +219,7 @@ items:
   source:
     id: gotoShop
     path: ''
-    startLine: 240
+    startLine: 246
   assemblies:
   - cs.temp.dll
   namespace: Global

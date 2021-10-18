@@ -21,10 +21,12 @@ items:
   source:
     id: ShopControl
     path: ''
-    startLine: 607
+    startLine: 616
   assemblies:
   - cs.temp.dll
   namespace: Global
+  summary: "\nshopControl gets total money and checks if ninja has been bought if so deletes 10 coins.\n"
+  example: []
   syntax:
     content: 'public class ShopControl : MonoBehaviour'
     content.vb: >-
@@ -52,7 +54,7 @@ items:
   source:
     id: moneyAmountText
     path: ''
-    startLine: 612
+    startLine: 621
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -79,7 +81,7 @@ items:
   source:
     id: ninjaPrice
     path: ''
-    startLine: 613
+    startLine: 622
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -106,7 +108,7 @@ items:
   source:
     id: buyButton
     path: ''
-    startLine: 615
+    startLine: 624
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -133,7 +135,7 @@ items:
   source:
     id: buyNinja
     path: ''
-    startLine: 640
+    startLine: 649
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -161,7 +163,7 @@ items:
   source:
     id: exitShop
     path: ''
-    startLine: 648
+    startLine: 657
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -187,7 +189,7 @@ items:
   source:
     id: resetPlayerPrefs
     path: ''
-    startLine: 654
+    startLine: 663
   assemblies:
   - cs.temp.dll
   namespace: Global

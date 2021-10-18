@@ -28,7 +28,7 @@ items:
   source:
     id: PlayerControls
     path: ''
-    startLine: 458
+    startLine: 464
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -59,7 +59,7 @@ items:
   source:
     id: rb
     path: ''
-    startLine: 460
+    startLine: 466
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -86,7 +86,7 @@ items:
   source:
     id: jump
     path: ''
-    startLine: 464
+    startLine: 470
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -113,7 +113,7 @@ items:
   source:
     id: isJumping
     path: ''
-    startLine: 465
+    startLine: 471
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -140,7 +140,7 @@ items:
   source:
     id: Jump
     path: ''
-    startLine: 466
+    startLine: 472
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -167,7 +167,7 @@ items:
   source:
     id: LandSpeed
     path: ''
-    startLine: 468
+    startLine: 474
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -194,7 +194,7 @@ items:
   source:
     id: reducedHeight
     path: ''
-    startLine: 471
+    startLine: 477
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -221,7 +221,7 @@ items:
   source:
     id: slideSpeed
     path: ''
-    startLine: 472
+    startLine: 478
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -248,7 +248,7 @@ items:
   source:
     id: isSliding
     path: ''
-    startLine: 473
+    startLine: 479
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -275,7 +275,7 @@ items:
   source:
     id: gameOverPanel
     path: ''
-    startLine: 482
+    startLine: 488
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -302,7 +302,7 @@ items:
   source:
     id: SlideTimer
     path: ''
-    startLine: 484
+    startLine: 490
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -329,7 +329,7 @@ items:
   source:
     id: OnJump
     path: ''
-    startLine: 542
+    startLine: 548
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -357,7 +357,7 @@ items:
   source:
     id: Slide
     path: ''
-    startLine: 551
+    startLine: 557
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -383,7 +383,7 @@ items:
   source:
     id: GoingUp
     path: ''
-    startLine: 568
+    startLine: 574
   assemblies:
   - cs.temp.dll
   namespace: Global

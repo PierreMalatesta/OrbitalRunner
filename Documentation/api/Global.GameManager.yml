@@ -17,7 +17,7 @@ items:
   source:
     id: GameManager
     path: ''
-    startLine: 252
+    startLine: 258
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -48,7 +48,7 @@ items:
   source:
     id: restartDelay
     path: ''
-    startLine: 255
+    startLine: 261
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -75,7 +75,7 @@ items:
   source:
     id: EndGame
     path: ''
-    startLine: 257
+    startLine: 263
   assemblies:
   - cs.temp.dll
   namespace: Global

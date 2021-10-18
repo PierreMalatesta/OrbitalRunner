@@ -18,7 +18,7 @@ items:
   source:
     id: Finish
     path: ''
-    startLine: 173
+    startLine: 176
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -49,7 +49,7 @@ items:
   source:
     id: FinishPanel
     path: ''
-    startLine: 175
+    startLine: 178
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -76,7 +76,7 @@ items:
   source:
     id: OnTriggerEnter
     path: ''
-    startLine: 177
+    startLine: 180
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -105,7 +105,7 @@ items:
   source:
     id: OnTriggerExit
     path: ''
-    startLine: 186
+    startLine: 189
   assemblies:
   - cs.temp.dll
   namespace: Global

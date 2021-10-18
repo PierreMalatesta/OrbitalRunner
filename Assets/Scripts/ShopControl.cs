@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// shopControl gets total money and checks if ninja has been bought if so deletes 10 coins.
+/// </summary>
 public class ShopControl : MonoBehaviour
 {
     int moneyAmount;

@@ -2,7 +2,7 @@
   "api/Global.CheckGround.html": {
     "href": "api/Global.CheckGround.html",
     "title": "Class CheckGround | Orbital Runner",
-    "keywords": "Class CheckGround Inheritance Object CheckGround Namespace : Global Assembly : cs.temp.dll.dll Syntax public class CheckGround : MonoBehaviour Fields DistanceGround Declaration public float DistanceGround Field Value Type Description Single isGrounded Declaration public bool isGrounded Field Value Type Description Boolean"
+    "keywords": "Class CheckGround Checks the ground of player, if true then player is in air and is unable to jump again, if false then player is on ground Inheritance Object CheckGround Namespace : Global Assembly : cs.temp.dll.dll Syntax public class CheckGround : MonoBehaviour Fields DistanceGround Declaration public float DistanceGround Field Value Type Description Single isGrounded Declaration public bool isGrounded Field Value Type Description Boolean"
   },
   "api/Global.Coin.html": {
     "href": "api/Global.Coin.html",
@@ -37,7 +37,7 @@
   "api/Global.GameControl.html": {
     "href": "api/Global.GameControl.html",
     "title": "Class GameControl | Orbital Runner",
-    "keywords": "Class GameControl Inheritance Object GameControl Namespace : Global Assembly : cs.temp.dll.dll Syntax public class GameControl : MonoBehaviour Fields FirstPlayer Declaration public GameObject FirstPlayer Field Value Type Description GameObject moneyAmount Declaration public static int moneyAmount Field Value Type Description Int32 moneyText Declaration public Text moneyText Field Value Type Description Text Ninja Declaration public GameObject Ninja Field Value Type Description GameObject SecondJump Declaration public GameObject SecondJump Field Value Type Description GameObject SecondSlide Declaration public GameObject SecondSlide Field Value Type Description GameObject Methods gotoShop() Declaration public void gotoShop()"
+    "keywords": "Class GameControl Checks game to see if ninja has been bought if so disables first character and enables ninja, it also disables the first pair of buttons \"Jump and slide\". This works in with the shopControl script Inheritance Object GameControl Namespace : Global Assembly : cs.temp.dll.dll Syntax public class GameControl : MonoBehaviour Fields FirstPlayer Declaration public GameObject FirstPlayer Field Value Type Description GameObject moneyAmount Declaration public static int moneyAmount Field Value Type Description Int32 moneyText Declaration public Text moneyText Field Value Type Description Text Ninja Declaration public GameObject Ninja Field Value Type Description GameObject SecondJump Declaration public GameObject SecondJump Field Value Type Description GameObject SecondSlide Declaration public GameObject SecondSlide Field Value Type Description GameObject Methods gotoShop() Declaration public void gotoShop()"
   },
   "api/Global.GameManager.html": {
     "href": "api/Global.GameManager.html",
@@ -47,7 +47,7 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | Orbital Runner",
-    "keywords": "Namespace Global Classes CheckGround Coin CoinCounter COL DeadTouch Events Finish GameControl GameManager HUD LevelGenerator LookCamera MainMenu Pause PlayerControls ShopControl SpawnScript TimerScript Touch VolumeSaveController"
+    "keywords": "Namespace Global Classes CheckGround Checks the ground of player, if true then player is in air and is unable to jump again, if false then player is on ground Coin CoinCounter COL DeadTouch Events Finish GameControl Checks game to see if ninja has been bought if so disables first character and enables ninja, it also disables the first pair of buttons \"Jump and slide\". This works in with the shopControl script GameManager HUD LevelGenerator LookCamera MainMenu Pause PlayerControls ShopControl shopControl gets total money and checks if ninja has been bought if so deletes 10 coins. SpawnScript TimerScript Touch VolumeSaveController"
   },
   "api/Global.HUD.html": {
     "href": "api/Global.HUD.html",
@@ -82,7 +82,7 @@
   "api/Global.ShopControl.html": {
     "href": "api/Global.ShopControl.html",
     "title": "Class ShopControl | Orbital Runner",
-    "keywords": "Class ShopControl Inheritance Object ShopControl Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ShopControl : MonoBehaviour Fields buyButton Declaration public Button buyButton Field Value Type Description Button moneyAmountText Declaration public Text moneyAmountText Field Value Type Description Text ninjaPrice Declaration public Text ninjaPrice Field Value Type Description Text Methods buyNinja() This function is use to buy the ninja gameObject, takes away 10 coins and disables the buy button. Declaration public void buyNinja() exitShop() Declaration public void exitShop() resetPlayerPrefs() Declaration public void resetPlayerPrefs()"
+    "keywords": "Class ShopControl shopControl gets total money and checks if ninja has been bought if so deletes 10 coins. Inheritance Object ShopControl Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ShopControl : MonoBehaviour Fields buyButton Declaration public Button buyButton Field Value Type Description Button moneyAmountText Declaration public Text moneyAmountText Field Value Type Description Text ninjaPrice Declaration public Text ninjaPrice Field Value Type Description Text Methods buyNinja() This function is use to buy the ninja gameObject, takes away 10 coins and disables the buy button. Declaration public void buyNinja() exitShop() Declaration public void exitShop() resetPlayerPrefs() Declaration public void resetPlayerPrefs()"
   },
   "api/Global.SpawnScript.html": {
     "href": "api/Global.SpawnScript.html",

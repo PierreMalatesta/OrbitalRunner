@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using UnityEngine;
 
+/// <summary>
+/// Checks the ground of player, if true then player is in air and is unable to jump again, if false then player is on ground
+/// </summary>
 public class CheckGround : MonoBehaviour
 {
     public float DistanceGround;

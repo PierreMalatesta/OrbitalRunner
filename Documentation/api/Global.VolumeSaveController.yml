@@ -20,7 +20,7 @@ items:
   source:
     id: VolumeSaveController
     path: ''
-    startLine: 784
+    startLine: 793
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -51,7 +51,7 @@ items:
   source:
     id: ON
     path: ''
-    startLine: 790
+    startLine: 799
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -78,7 +78,7 @@ items:
   source:
     id: OFF
     path: ''
-    startLine: 791
+    startLine: 800
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -105,7 +105,7 @@ items:
   source:
     id: volumeSlider
     path: ''
-    startLine: 799
+    startLine: 808
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -134,7 +134,7 @@ items:
   source:
     id: SaveVolumeButton
     path: ''
-    startLine: 804
+    startLine: 813
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -160,7 +160,7 @@ items:
   source:
     id: ToggleHudButton
     path: ''
-    startLine: 811
+    startLine: 820
   assemblies:
   - cs.temp.dll
   namespace: Global

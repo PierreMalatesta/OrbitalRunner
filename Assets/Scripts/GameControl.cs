@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Checks game to see if ninja has been bought if so disables first character and enables ninja, it also disables the first pair of buttons "Jump and slide". This works in with the shopControl script
+/// </summary>
 public class GameControl : MonoBehaviour
 {
     public Text moneyText;

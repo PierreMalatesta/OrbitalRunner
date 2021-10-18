@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace Global
+   | Orbital Runner </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace Global
+   | Orbital Runner ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Global">
+  
+  <h1 id="Global" data-uid="Global" class="text-break">Namespace Global
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="Global.CheckGround.html">CheckGround</a></h4>
+      <section><p sourcefile="api/Global.CheckGround.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Checks the ground of player, if true then player is in air and is unable to jump again, if false then player is on ground</p>
+</section>
+      <h4><a class="xref" href="Global.Coin.html">Coin</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.CoinCounter.html">CoinCounter</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.COL.html">COL</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.DeadTouch.html">DeadTouch</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Events.html">Events</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Finish.html">Finish</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.GameControl.html">GameControl</a></h4>
+      <section><p sourcefile="api/Global.GameControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Checks game to see if ninja has been bought if so disables first character and enables ninja, it also disables the first pair of buttons &quot;Jump and slide&quot;. This works in with the shopControl script</p>
+</section>
+      <h4><a class="xref" href="Global.GameManager.html">GameManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.HUD.html">HUD</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.LevelGenerator.html">LevelGenerator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.LookCamera.html">LookCamera</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MainMenu.html">MainMenu</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Pause.html">Pause</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PlayerControls.html">PlayerControls</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ShopControl.html">ShopControl</a></h4>
+      <section><p sourcefile="api/Global.ShopControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">shopControl gets total money and checks if ninja has been bought if so deletes 10 coins.</p>
+</section>
+      <h4><a class="xref" href="Global.SpawnScript.html">SpawnScript</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TimerScript.html">TimerScript</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Touch.html">Touch</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.VolumeSaveController.html">VolumeSaveController</a></h4>
+      <section></section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Orbital Runner
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

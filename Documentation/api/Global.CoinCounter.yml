@@ -17,7 +17,7 @@ items:
   source:
     id: CoinCounter
     path: ''
-    startLine: 58
+    startLine: 61
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -48,7 +48,7 @@ items:
   source:
     id: TextCoins
     path: ''
-    startLine: 62
+    startLine: 65
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -75,7 +75,7 @@ items:
   source:
     id: OnTriggerEnter
     path: ''
-    startLine: 64
+    startLine: 67
   assemblies:
   - cs.temp.dll
   namespace: Global
